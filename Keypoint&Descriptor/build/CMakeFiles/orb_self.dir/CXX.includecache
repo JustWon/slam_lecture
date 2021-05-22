@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/share/VisualSLAMLecture/Keypoint&Descriptor/orb_self.cpp
+opencv2/opencv.hpp
+-
+string
+-
+nmmintrin.h
+-
+chrono
+-
+

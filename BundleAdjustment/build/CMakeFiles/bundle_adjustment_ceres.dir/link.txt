@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o  -o bundle_adjustment_ceres /usr/local/lib/libceres.a libbal_common.a -lpthread -lglog 

@@ -1,0 +1,3 @@
+/home/parallels/share/VisualSLAMLecture/KalmanFilter/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/share/VisualSLAMLecture/KalmanFilter/build/CMakeFiles/kalman-test.dir
+/home/parallels/share/VisualSLAMLecture/KalmanFilter/build/CMakeFiles/edit_cache.dir

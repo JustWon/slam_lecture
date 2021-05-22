@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/share/VisualSLAMLecture/GraphOptimization/pose_graph_g2o_SE3.cpp
+iostream
+-
+fstream
+-
+string
+-
+g2o/types/slam3d/types_slam3d.h
+-
+g2o/core/block_solver.h
+-
+g2o/core/optimization_algorithm_levenberg.h
+-
+g2o/solvers/eigen/linear_solver_eigen.h
+-
+

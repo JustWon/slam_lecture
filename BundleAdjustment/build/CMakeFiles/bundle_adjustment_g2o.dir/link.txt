@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/bundle_adjustment_g2o.dir/bundle_adjustment_g2o.cpp.o  -o bundle_adjustment_g2o -lg2o_csparse_extension -lg2o_stuff -lg2o_core -lcxsparse libbal_common.a 

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/parallels/share/VisualSLAMLecture/BundleAdjustment/bundle_adjustment_g2o.cpp
+g2o/core/base_vertex.h
+-
+g2o/core/base_binary_edge.h
+-
+g2o/core/block_solver.h
+-
+g2o/core/optimization_algorithm_levenberg.h
+-
+g2o/solvers/csparse/linear_solver_csparse.h
+-
+g2o/core/robust_kernel_impl.h
+-
+iostream
+-
+common.h
+/home/parallels/share/VisualSLAMLecture/BundleAdjustment/common.h
+sophus/se3.hpp
+/home/parallels/share/VisualSLAMLecture/BundleAdjustment/sophus/se3.hpp
+
+/home/parallels/share/VisualSLAMLecture/BundleAdjustment/common.h
+
