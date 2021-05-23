@@ -93,6 +93,25 @@ bundle_adjustment_ceres: CMakeFiles/bundle_adjustment_ceres.dir/build.make
 bundle_adjustment_ceres: /usr/local/lib/libceres.a
 bundle_adjustment_ceres: libbal_common.a
 bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libglog.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.1
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libspqr.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libtbb.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libcholmod.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libccolamd.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libcamd.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libcolamd.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libamd.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/liblapack.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libblas.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/librt.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libcxsparse.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/liblapack.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libblas.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/librt.so
+bundle_adjustment_ceres: /usr/lib/x86_64-linux-gnu/libcxsparse.so
 bundle_adjustment_ceres: CMakeFiles/bundle_adjustment_ceres.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bundle_adjustment_ceres"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bundle_adjustment_ceres.dir/link.txt --verbose=$(VERBOSE)

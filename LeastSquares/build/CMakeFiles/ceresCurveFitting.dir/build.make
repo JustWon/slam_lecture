@@ -133,6 +133,25 @@ ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
 ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libglog.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.1
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libspqr.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libtbb.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libcholmod.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libccolamd.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libcamd.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libcolamd.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libamd.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/liblapack.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libblas.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/librt.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libcxsparse.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/liblapack.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libblas.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/librt.so
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libcxsparse.so
 ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ceresCurveFitting"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ceresCurveFitting.dir/link.txt --verbose=$(VERBOSE)

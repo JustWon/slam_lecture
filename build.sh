@@ -13,42 +13,32 @@ ROOT_DIR=$PWD
 echo $ROOT_DIR
 
 # build visual slam examples
-cd $ROOT_DIR
-cd 3DPointCameraProjection
+cd "$ROOT_DIR/3DPointCameraProjection"
 build_function
 
-cd $ROOT_DIR
-cd BundleAdjustment
+cd "$ROOT_DIR/BundleAdjustment"
 build_function
 
-cd $ROOT_DIR
-cd Fundamental&EssentialMatrix
+cd "$ROOT_DIR/Fundamental&EssentialMatrix"
 build_function
 
-cd $ROOT_DIR
-cd GraphOptimization
+cd "$ROOT_DIR/GraphOptimization"
 build_function
 
-cd $ROOT_DIR
-cd KalmanFilter
+cd "$ROOT_DIR/KalmanFilter"
 build_function
 
-cd $ROOT_DIR
-cd Keypoint&Descriptor
+cd "$ROOT_DIR/Keypoint&Descriptor"
 build_function
 
-cd $ROOT_DIR
-cd LeastSquares
+cd "$ROOT_DIR/LeastSquares"
 build_function
 
-cd $ROOT_DIR
-cd LoopClosureDetection
+cd "$ROOT_DIR/LoopClosureDetection"
 build_function
 
-cd $ROOT_DIR
-cd PerspectiveNPoints
+cd "$ROOT_DIR/PerspectiveNPoints"
 build_function
 
-cd $ROOT_DIR
-cd Triangulation 
+cd "$ROOT_DIR/Triangulation"
 build_function

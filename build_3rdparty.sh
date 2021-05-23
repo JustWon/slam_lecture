@@ -22,27 +22,17 @@ sudo apt install libgoogle-glog-dev -y
 sudo apt install libsuitesparse-dev -y
 
 # build 3rdparties
-cd $ROOT_DIR
-cd 3rdparty
-cd googletest
+cd "$ROOT_DIR/3rdparty/googletest"
 install_function
 
-cd $ROOT_DIR
-cd 3rdparty
-cd ceres-solver
+cd "$ROOT_DIR/3rdparty/ceres-solver"
 install_function
 
-cd $ROOT_DIR
-cd 3rdparty
-cd g2o
+cd "$ROOT_DIR/3rdparty/g2o"
 install_function
 
-cd $ROOT_DIR
-cd 3rdparty
-cd Sophus
+cd "$ROOT_DIR/3rdparty/Sophus"
 install_function
 
-cd $ROOT_DIR
-cd 3rdparty
-cd DBoW3
+cd "$ROOT_DIR/3rdparty/DBoW3"
 install_function
