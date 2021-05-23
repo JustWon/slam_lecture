@@ -11,10 +11,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
-  "../cmake/FindG2O.cmake"
-  "/usr/local/share/sophus/cmake/SophusConfig.cmake"
-  "/usr/local/share/sophus/cmake/SophusConfigVersion.cmake"
-  "/usr/local/share/sophus/cmake/SophusTargets.cmake"
   "/usr/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/share/OpenCV/OpenCVConfig.cmake"
   "/usr/share/OpenCV/OpenCVModules-release.cmake"
@@ -22,7 +18,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
-  "/usr/share/cmake-3.10/Modules/CMakeFindDependencyMacro.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake"
@@ -53,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/triangulation.dir/DependInfo.cmake"
+  "CMakeFiles/lidar_camera.dir/DependInfo.cmake"
   )

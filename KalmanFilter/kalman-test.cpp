@@ -25,13 +25,19 @@ int main(int argc, char* argv[]) {
   Eigen::MatrixXd P(n, n); // Estimate error covariance
 
   // Discrete LTI projectile motion, measuring position only
-  A << 1, dt, 0, 0, 1, dt, 0, 0, 1;
+  A << 1, dt, 0, 
+       0, 1, dt, 
+       0, 0, 1;
   C << 1, 0, 0;
 
   // Reasonable covariance matrices
-  Q << .05, .05, .0, .05, .05, .0, .0, .0, .0;
+  Q << .05, .05, .0, 
+       .05, .05, .0, 
+       .0, .0, .0;
   R << 5;
-  P << .1, .1, .1, .1, 10000, 10, .1, 10, 100;
+  P << .1, .1, .1, 
+       .1, 10000, 10, 
+       .1, 10, 100;
 
   std::cout << "A: \n" << A << std::endl;
   std::cout << "C: \n" << C << std::endl;

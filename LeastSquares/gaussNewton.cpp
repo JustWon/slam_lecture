@@ -8,6 +8,8 @@ using namespace std;
 using namespace Eigen;
 
 int main(int argc, char **argv) {
+
+  // initialization
   double ar = 1.0, br = 2.0, cr = 1.0; 
   double ae = 2.0, be = -1.0, ce = 5.0;
   int N = 100;                         
@@ -15,6 +17,7 @@ int main(int argc, char **argv) {
   double inv_sigma = 1.0 / w_sigma;
   cv::RNG rng;                         
 
+  // data
   vector<double> x_data, y_data;     
   for (int i = 0; i < N; i++) {
     double x = i / 100.0;
@@ -25,6 +28,7 @@ int main(int argc, char **argv) {
   int iterations = 100;  
   double cost = 0, lastCost = 0; 
 
+  // least square
   chrono::steady_clock::time_point t1 = chrono::steady_clock::now();
   for (int iter = 0; iter < iterations; iter++) {
 
