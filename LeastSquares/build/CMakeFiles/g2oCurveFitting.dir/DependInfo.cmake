@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/parallels/share/VisualSLAMLecture/LeastSquares/g2oCurveFitting.cpp" "/home/parallels/share/VisualSLAMLecture/LeastSquares/build/CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o"
+  "/home/parallels/Desktop/visual_slam_lecture/LeastSquares/g2oCurveFitting.cpp" "/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include/opencv4"
+  "/usr/include/opencv"
   "/usr/local/include"
   "/usr/include/eigen3"
   )

@@ -1,3 +1,3 @@
-/home/parallels/share/VisualSLAMLecture/PerspectiveNPoints/build/CMakeFiles/rebuild_cache.dir
-/home/parallels/share/VisualSLAMLecture/PerspectiveNPoints/build/CMakeFiles/pose_estimation_3d2d.dir
-/home/parallels/share/VisualSLAMLecture/PerspectiveNPoints/build/CMakeFiles/edit_cache.dir
+/home/parallels/Desktop/visual_slam_lecture/PerspectiveNPoints/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/Desktop/visual_slam_lecture/PerspectiveNPoints/build/CMakeFiles/pose_estimation_3d2d.dir
+/home/parallels/Desktop/visual_slam_lecture/PerspectiveNPoints/build/CMakeFiles/edit_cache.dir

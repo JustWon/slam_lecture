@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/share/VisualSLAMLecture/LeastSquares
+CMAKE_SOURCE_DIR = /home/parallels/Desktop/visual_slam_lecture/LeastSquares
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/share/VisualSLAMLecture/LeastSquares/build
+CMAKE_BINARY_DIR = /home/parallels/Desktop/visual_slam_lecture/LeastSquares/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ceresCurveFitting.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ceresCurveFitting.dir/flags.make
 
 CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o: CMakeFiles/ceresCurveFitting.dir/flags.make
 CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o: ../ceresCurveFitting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/share/VisualSLAMLecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o -c /home/parallels/share/VisualSLAMLecture/LeastSquares/ceresCurveFitting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o -c /home/parallels/Desktop/visual_slam_lecture/LeastSquares/ceresCurveFitting.cpp
 
 CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/share/VisualSLAMLecture/LeastSquares/ceresCurveFitting.cpp > CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Desktop/visual_slam_lecture/LeastSquares/ceresCurveFitting.cpp > CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.i
 
 CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/share/VisualSLAMLecture/LeastSquares/ceresCurveFitting.cpp -o CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Desktop/visual_slam_lecture/LeastSquares/ceresCurveFitting.cpp -o CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.s
 
 CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o.requires:
 
@@ -90,59 +90,51 @@ ceresCurveFitting_EXTERNAL_OBJECTS =
 
 ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o
 ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/build.make
-ceresCurveFitting: /usr/local/lib/libopencv_gapi.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_stitching.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_aruco.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_bgsegm.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_bioinspired.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_ccalib.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_dnn_objdetect.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_dnn_superres.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_dpm.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_face.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_freetype.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_fuzzy.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_hfs.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_img_hash.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_line_descriptor.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_quality.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_reg.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_rgbd.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_saliency.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_sfm.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_stereo.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_structured_light.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_superres.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_surface_matching.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_tracking.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_videostab.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_xfeatures2d.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_xobjdetect.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_xphoto.so.4.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
 ceresCurveFitting: /usr/local/lib/libceres.a
-ceresCurveFitting: /usr/local/lib/libopencv_highgui.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_shape.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_datasets.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_plot.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_text.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_dnn.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_ml.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_phase_unwrapping.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_optflow.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_ximgproc.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_video.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_videoio.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_imgcodecs.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_objdetect.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_calib3d.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_features2d.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_flann.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_photo.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_imgproc.so.4.2.0
-ceresCurveFitting: /usr/local/lib/libopencv_core.so.4.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 ceresCurveFitting: /usr/lib/x86_64-linux-gnu/libglog.so
 ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/share/VisualSLAMLecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ceresCurveFitting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ceresCurveFitting"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ceresCurveFitting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -159,6 +151,6 @@ CMakeFiles/ceresCurveFitting.dir/clean:
 .PHONY : CMakeFiles/ceresCurveFitting.dir/clean
 
 CMakeFiles/ceresCurveFitting.dir/depend:
-	cd /home/parallels/share/VisualSLAMLecture/LeastSquares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/share/VisualSLAMLecture/LeastSquares /home/parallels/share/VisualSLAMLecture/LeastSquares /home/parallels/share/VisualSLAMLecture/LeastSquares/build /home/parallels/share/VisualSLAMLecture/LeastSquares/build /home/parallels/share/VisualSLAMLecture/LeastSquares/build/CMakeFiles/ceresCurveFitting.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/Desktop/visual_slam_lecture/LeastSquares/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/Desktop/visual_slam_lecture/LeastSquares /home/parallels/Desktop/visual_slam_lecture/LeastSquares /home/parallels/Desktop/visual_slam_lecture/LeastSquares/build /home/parallels/Desktop/visual_slam_lecture/LeastSquares/build /home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles/ceresCurveFitting.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ceresCurveFitting.dir/depend
 

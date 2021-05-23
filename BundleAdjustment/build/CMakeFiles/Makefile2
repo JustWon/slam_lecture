@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/share/VisualSLAMLecture/BundleAdjustment
+CMAKE_SOURCE_DIR = /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/share/VisualSLAMLecture/BundleAdjustment/build
+CMAKE_BINARY_DIR = /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/bal_common.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/parallels/share/VisualSLAMLecture/BundleAdjustment/buil
 CMakeFiles/bal_common.dir/all:
 	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/depend
 	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles --progress-num=1,2 "Built target bal_common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=1,2 "Built target bal_common"
 .PHONY : CMakeFiles/bal_common.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/bal_common.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bal_common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bal_common.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles 0
 .PHONY : CMakeFiles/bal_common.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/bal_common.dir/clean
 CMakeFiles/bundle_adjustment_ceres.dir/all: CMakeFiles/bal_common.dir/all
 	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/depend
 	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles --progress-num=3,4 "Built target bundle_adjustment_ceres"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=3,4 "Built target bundle_adjustment_ceres"
 .PHONY : CMakeFiles/bundle_adjustment_ceres.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/bundle_adjustment_ceres.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bundle_adjustment_ceres.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bundle_adjustment_ceres.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles 0
 .PHONY : CMakeFiles/bundle_adjustment_ceres.dir/rule
 
 # Convenience name for target.

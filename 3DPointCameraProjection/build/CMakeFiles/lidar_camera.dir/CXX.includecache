@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/dataStructures.h
+/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/dataStructures.h
 vector
 -
 opencv2/core.hpp
 -
 
-/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/lidar_camera.cpp
+/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/lidar_camera.cpp
 iostream
 -
 numeric
@@ -24,9 +24,9 @@ opencv2/highgui.hpp
 opencv2/imgproc.hpp
 -
 utils.hpp
-/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/utils.hpp
+/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/utils.hpp
 
-/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/utils.cpp
+/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/utils.cpp
 iostream
 -
 fstream
@@ -36,11 +36,11 @@ algorithm
 opencv2/highgui/highgui.hpp
 -
 utils.hpp
-/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/utils.hpp
+/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/utils.hpp
 
-/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/utils.hpp
+/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/utils.hpp
 stdio.h
 -
 dataStructures.h
-/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/dataStructures.h
+/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/dataStructures.h
 

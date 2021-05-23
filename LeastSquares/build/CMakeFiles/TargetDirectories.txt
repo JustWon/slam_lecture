@@ -1,5 +1,5 @@
-/home/parallels/share/VisualSLAMLecture/LeastSquares/build/CMakeFiles/rebuild_cache.dir
-/home/parallels/share/VisualSLAMLecture/LeastSquares/build/CMakeFiles/edit_cache.dir
-/home/parallels/share/VisualSLAMLecture/LeastSquares/build/CMakeFiles/g2oCurveFitting.dir
-/home/parallels/share/VisualSLAMLecture/LeastSquares/build/CMakeFiles/gaussNewton.dir
-/home/parallels/share/VisualSLAMLecture/LeastSquares/build/CMakeFiles/ceresCurveFitting.dir
+/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles/edit_cache.dir
+/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles/g2oCurveFitting.dir
+/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles/gaussNewton.dir
+/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles/ceresCurveFitting.dir

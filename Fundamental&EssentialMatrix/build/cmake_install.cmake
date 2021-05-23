@@ -1,4 +1,4 @@
-# Install script for directory: /home/parallels/share/VisualSLAMLecture/Fundamental&EssentialMatrix
+# Install script for directory: /home/parallels/Desktop/visual_slam_lecture/Fundamental&EssentialMatrix
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/parallels/share/VisualSLAMLecture/Fundamental&EssentialMatrix/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/parallels/Desktop/visual_slam_lecture/Fundamental&EssentialMatrix/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

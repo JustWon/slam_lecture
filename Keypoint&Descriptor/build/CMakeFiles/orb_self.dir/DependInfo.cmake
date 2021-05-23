@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/parallels/share/VisualSLAMLecture/Keypoint&Descriptor/orb_self.cpp" "/home/parallels/share/VisualSLAMLecture/Keypoint&Descriptor/build/CMakeFiles/orb_self.dir/orb_self.cpp.o"
+  "/home/parallels/Desktop/visual_slam_lecture/Keypoint&Descriptor/orb_self.cpp" "/home/parallels/Desktop/visual_slam_lecture/Keypoint&Descriptor/build/CMakeFiles/orb_self.dir/orb_self.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

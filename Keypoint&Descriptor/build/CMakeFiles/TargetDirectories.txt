@@ -1,4 +1,4 @@
-/home/parallels/share/VisualSLAMLecture/Keypoint&Descriptor/build/CMakeFiles/rebuild_cache.dir
-/home/parallels/share/VisualSLAMLecture/Keypoint&Descriptor/build/CMakeFiles/edit_cache.dir
-/home/parallels/share/VisualSLAMLecture/Keypoint&Descriptor/build/CMakeFiles/orb_cv.dir
-/home/parallels/share/VisualSLAMLecture/Keypoint&Descriptor/build/CMakeFiles/orb_self.dir
+/home/parallels/Desktop/visual_slam_lecture/Keypoint&Descriptor/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/Desktop/visual_slam_lecture/Keypoint&Descriptor/build/CMakeFiles/edit_cache.dir
+/home/parallels/Desktop/visual_slam_lecture/Keypoint&Descriptor/build/CMakeFiles/orb_cv.dir
+/home/parallels/Desktop/visual_slam_lecture/Keypoint&Descriptor/build/CMakeFiles/orb_self.dir

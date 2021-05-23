@@ -14,7 +14,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
   "../cmake/FindG2O.cmake"
-  "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
   "/usr/local/share/sophus/cmake/SophusConfig.cmake"
   "/usr/local/share/sophus/cmake/SophusConfigVersion.cmake"
   "/usr/local/share/sophus/cmake/SophusTargets.cmake"

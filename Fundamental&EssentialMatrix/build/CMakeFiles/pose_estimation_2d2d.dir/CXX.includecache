@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/share/VisualSLAMLecture/Fundamental&EssentialMatrix/pose_estimation_2d2d.cpp
+/home/parallels/Desktop/visual_slam_lecture/Fundamental&EssentialMatrix/pose_estimation_2d2d.cpp
 iostream
 -
 opencv2/core/core.hpp

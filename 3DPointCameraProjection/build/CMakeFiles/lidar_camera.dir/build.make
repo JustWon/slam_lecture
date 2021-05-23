@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection
+CMAKE_SOURCE_DIR = /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/build
+CMAKE_BINARY_DIR = /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lidar_camera.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/lidar_camera.dir/flags.make
 
 CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o: CMakeFiles/lidar_camera.dir/flags.make
 CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o: ../src/lidar_camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o -c /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/lidar_camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o -c /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/lidar_camera.cpp
 
 CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/lidar_camera.cpp > CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/lidar_camera.cpp > CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.i
 
 CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/lidar_camera.cpp -o CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/lidar_camera.cpp -o CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.s
 
 CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o.provides.build: CMakeFiles/li
 
 CMakeFiles/lidar_camera.dir/src/utils.cpp.o: CMakeFiles/lidar_camera.dir/flags.make
 CMakeFiles/lidar_camera.dir/src/utils.cpp.o: ../src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lidar_camera.dir/src/utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_camera.dir/src/utils.cpp.o -c /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lidar_camera.dir/src/utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_camera.dir/src/utils.cpp.o -c /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/utils.cpp
 
 CMakeFiles/lidar_camera.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_camera.dir/src/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/utils.cpp > CMakeFiles/lidar_camera.dir/src/utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/utils.cpp > CMakeFiles/lidar_camera.dir/src/utils.cpp.i
 
 CMakeFiles/lidar_camera.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_camera.dir/src/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/src/utils.cpp -o CMakeFiles/lidar_camera.dir/src/utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/src/utils.cpp -o CMakeFiles/lidar_camera.dir/src/utils.cpp.s
 
 CMakeFiles/lidar_camera.dir/src/utils.cpp.o.requires:
 
@@ -158,7 +158,7 @@ lidar_camera_EXTERNAL_OBJECTS =
 ../lidar_camera: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 ../lidar_camera: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 ../lidar_camera: CMakeFiles/lidar_camera.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../lidar_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../lidar_camera"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lidar_camera.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +176,6 @@ CMakeFiles/lidar_camera.dir/clean:
 .PHONY : CMakeFiles/lidar_camera.dir/clean
 
 CMakeFiles/lidar_camera.dir/depend:
-	cd /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/build /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/build /home/parallels/share/VisualSLAMLecture/3DPointCameraProjection/build/CMakeFiles/lidar_camera.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/build /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/build /home/parallels/Desktop/visual_slam_lecture/3DPointCameraProjection/build/CMakeFiles/lidar_camera.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lidar_camera.dir/depend
 

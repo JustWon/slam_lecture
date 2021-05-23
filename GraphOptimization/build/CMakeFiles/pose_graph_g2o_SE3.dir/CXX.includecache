@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/share/VisualSLAMLecture/GraphOptimization/pose_graph_g2o_SE3.cpp
+/home/parallels/Desktop/visual_slam_lecture/GraphOptimization/pose_graph_g2o_SE3.cpp
 iostream
 -
 fstream

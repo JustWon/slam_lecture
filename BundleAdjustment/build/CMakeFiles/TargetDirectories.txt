@@ -1,4 +1,4 @@
-/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/edit_cache.dir
-/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/rebuild_cache.dir
-/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/bal_common.dir
-/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/bundle_adjustment_ceres.dir
+/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/edit_cache.dir
+/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/bal_common.dir
+/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/bundle_adjustment_ceres.dir

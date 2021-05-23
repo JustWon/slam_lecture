@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/share/VisualSLAMLecture/LoopClosureDetection/feature_training.cpp
+/home/parallels/Desktop/visual_slam_lecture/LoopClosureDetection/feature_training.cpp
 DBoW3/DBoW3.h
-/home/parallels/share/VisualSLAMLecture/LoopClosureDetection/DBoW3/DBoW3.h
+/home/parallels/Desktop/visual_slam_lecture/LoopClosureDetection/DBoW3/DBoW3.h
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp

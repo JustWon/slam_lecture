@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++14 -O3 -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/local/include/opencv4 -I/usr/local/include -I/usr/include/eigen3 
+CXX_INCLUDES = -isystem /usr/include/opencv -I/usr/local/include -I/usr/include/eigen3 
 

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/CMakeTmp
+Change Dir: /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8c58b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8c58b.dir/build.make CMakeFiles/cmTC_8c58b.dir/build
-make[1]: Entering directory '/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8c58b.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8c58b.dir/CheckSymbolExists.c.o   -c /home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_8c58b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c58b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8c58b.dir/CheckSymbolExists.c.o  -o cmTC_8c58b 
-CMakeFiles/cmTC_8c58b.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_469c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_469c9.dir/build.make CMakeFiles/cmTC_469c9.dir/build
+make[1]: Entering directory '/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_469c9.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_469c9.dir/CheckSymbolExists.c.o   -c /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_469c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_469c9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_469c9.dir/CheckSymbolExists.c.o  -o cmTC_469c9 
+CMakeFiles/cmTC_469c9.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_8c58b.dir/build.make:97: recipe for target 'cmTC_8c58b' failed
-make[1]: *** [cmTC_8c58b] Error 1
-make[1]: Leaving directory '/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8c58b/fast' failed
-make: *** [cmTC_8c58b/fast] Error 2
+CMakeFiles/cmTC_469c9.dir/build.make:97: recipe for target 'cmTC_469c9' failed
+make[1]: *** [cmTC_469c9] Error 1
+make[1]: Leaving directory '/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_469c9/fast' failed
+make: *** [cmTC_469c9/fast] Error 2
 
-File /home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/CMakeTmp
+Change Dir: /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6beb9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6beb9.dir/build.make CMakeFiles/cmTC_6beb9.dir/build
-make[1]: Entering directory '/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6beb9.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6beb9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6beb9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6beb9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6beb9.dir/CheckFunctionExists.c.o  -o cmTC_6beb9 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_8c0c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c0c3.dir/build.make CMakeFiles/cmTC_8c0c3.dir/build
+make[1]: Entering directory '/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c0c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8c0c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8c0c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c0c3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8c0c3.dir/CheckFunctionExists.c.o  -o cmTC_8c0c3 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_6beb9.dir/build.make:97: recipe for target 'cmTC_6beb9' failed
-make[1]: *** [cmTC_6beb9] Error 1
-make[1]: Leaving directory '/home/parallels/share/VisualSLAMLecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6beb9/fast' failed
-make: *** [cmTC_6beb9/fast] Error 2
+CMakeFiles/cmTC_8c0c3.dir/build.make:97: recipe for target 'cmTC_8c0c3' failed
+make[1]: *** [cmTC_8c0c3] Error 1
+make[1]: Leaving directory '/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8c0c3/fast' failed
+make: *** [cmTC_8c0c3/fast] Error 2
 
 
