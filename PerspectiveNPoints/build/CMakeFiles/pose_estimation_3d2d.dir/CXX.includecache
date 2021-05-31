@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Desktop/visual_slam_lecture/PerspectiveNPoints/pose_estimation_3d2d.cpp
+/home/parallels/share/visual_slam_lecture/PerspectiveNPoints/pose_estimation_3d2d.cpp
 iostream
 -
 opencv2/core/core.hpp

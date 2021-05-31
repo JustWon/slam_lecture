@@ -4,18 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/parallels/Desktop/visual_slam_lecture/LeastSquares/ceresCurveFitting.cpp" "/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o"
+  "/home/parallels/share/visual_slam_lecture/LeastSquares/ceresCurveFitting.cpp" "/home/parallels/share/visual_slam_lecture/LeastSquares/build/CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "GFLAGS_IS_A_DLL=0"
-  )
-
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/opencv"
+  "/usr/local/include/opencv4"
   "/usr/local/include"
   "/usr/include/eigen3"
   )

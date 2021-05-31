@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/parallels/Desktop/visual_slam_lecture/LoopClosureDetection/gen_vocab_large.cpp" "/home/parallels/Desktop/visual_slam_lecture/LoopClosureDetection/build/CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o"
+  "/home/parallels/share/visual_slam_lecture/LoopClosureDetection/gen_vocab_large.cpp" "/home/parallels/share/visual_slam_lecture/LoopClosureDetection/build/CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

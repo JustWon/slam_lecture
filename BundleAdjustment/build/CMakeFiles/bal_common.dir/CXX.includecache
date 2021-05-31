@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/common.cpp
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/common.cpp
 cstdio
 -
 fstream
@@ -22,21 +22,21 @@ Eigen/Core
 Eigen/Dense
 -
 common.h
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/common.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/common.h
 rotation.h
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/rotation.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/rotation.h
 random.h
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/random.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/random.h
 
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/common.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/common.h
 
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/random.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/random.h
 math.h
 -
 stdlib.h
 -
 
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/rotation.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/rotation.h
 algorithm
 -
 cmath

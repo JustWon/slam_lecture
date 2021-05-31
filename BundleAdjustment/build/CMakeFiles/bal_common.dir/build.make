@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment
+CMAKE_SOURCE_DIR = /home/parallels/share/visual_slam_lecture/BundleAdjustment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build
+CMAKE_BINARY_DIR = /home/parallels/share/visual_slam_lecture/BundleAdjustment/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bal_common.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/bal_common.dir/flags.make
 
 CMakeFiles/bal_common.dir/common.cpp.o: CMakeFiles/bal_common.dir/flags.make
 CMakeFiles/bal_common.dir/common.cpp.o: ../common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bal_common.dir/common.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bal_common.dir/common.cpp.o -c /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bal_common.dir/common.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bal_common.dir/common.cpp.o -c /home/parallels/share/visual_slam_lecture/BundleAdjustment/common.cpp
 
 CMakeFiles/bal_common.dir/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bal_common.dir/common.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/common.cpp > CMakeFiles/bal_common.dir/common.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/share/visual_slam_lecture/BundleAdjustment/common.cpp > CMakeFiles/bal_common.dir/common.cpp.i
 
 CMakeFiles/bal_common.dir/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bal_common.dir/common.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/common.cpp -o CMakeFiles/bal_common.dir/common.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/share/visual_slam_lecture/BundleAdjustment/common.cpp -o CMakeFiles/bal_common.dir/common.cpp.s
 
 CMakeFiles/bal_common.dir/common.cpp.o.requires:
 
@@ -91,7 +91,7 @@ bal_common_EXTERNAL_OBJECTS =
 libbal_common.a: CMakeFiles/bal_common.dir/common.cpp.o
 libbal_common.a: CMakeFiles/bal_common.dir/build.make
 libbal_common.a: CMakeFiles/bal_common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libbal_common.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libbal_common.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/bal_common.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bal_common.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/bal_common.dir/clean:
 .PHONY : CMakeFiles/bal_common.dir/clean
 
 CMakeFiles/bal_common.dir/depend:
-	cd /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/bal_common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/share/visual_slam_lecture/BundleAdjustment/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/share/visual_slam_lecture/BundleAdjustment /home/parallels/share/visual_slam_lecture/BundleAdjustment /home/parallels/share/visual_slam_lecture/BundleAdjustment/build /home/parallels/share/visual_slam_lecture/BundleAdjustment/build /home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/bal_common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bal_common.dir/depend
 

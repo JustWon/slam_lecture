@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman-test.cpp
+/home/parallels/share/visual_slam_lecture/KalmanFilter/kalman-test.cpp
 iostream
 -
 vector
@@ -14,17 +14,17 @@ vector
 Eigen/Dense
 -
 kalman.hpp
-/home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman.hpp
+/home/parallels/share/visual_slam_lecture/KalmanFilter/kalman.hpp
 
-/home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman.cpp
+/home/parallels/share/visual_slam_lecture/KalmanFilter/kalman.cpp
 iostream
 -
 stdexcept
 -
 kalman.hpp
-/home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman.hpp
+/home/parallels/share/visual_slam_lecture/KalmanFilter/kalman.hpp
 
-/home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman.hpp
+/home/parallels/share/visual_slam_lecture/KalmanFilter/kalman.hpp
 Eigen/Dense
 -
 

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp
+Change Dir: /home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cf6ca/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cf6ca.dir/build.make CMakeFiles/cmTC_cf6ca.dir/build
-make[1]: Entering directory '/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cf6ca.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_cf6ca.dir/CheckSymbolExists.c.o   -c /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_cf6ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf6ca.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cf6ca.dir/CheckSymbolExists.c.o  -o cmTC_cf6ca 
-CMakeFiles/cmTC_cf6ca.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_bd10b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd10b.dir/build.make CMakeFiles/cmTC_bd10b.dir/build
+make[1]: Entering directory '/home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd10b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bd10b.dir/CheckSymbolExists.c.o   -c /home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bd10b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd10b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bd10b.dir/CheckSymbolExists.c.o  -o cmTC_bd10b 
+CMakeFiles/cmTC_bd10b.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_cf6ca.dir/build.make:97: recipe for target 'cmTC_cf6ca' failed
-make[1]: *** [cmTC_cf6ca] Error 1
-make[1]: Leaving directory '/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_cf6ca/fast' failed
-make: *** [cmTC_cf6ca/fast] Error 2
+CMakeFiles/cmTC_bd10b.dir/build.make:97: recipe for target 'cmTC_bd10b' failed
+make[1]: *** [cmTC_bd10b] Error 1
+make[1]: Leaving directory '/home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bd10b/fast' failed
+make: *** [cmTC_bd10b/fast] Error 2
 
-File /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp
+Change Dir: /home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_644f2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_644f2.dir/build.make CMakeFiles/cmTC_644f2.dir/build
-make[1]: Entering directory '/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_644f2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_644f2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_644f2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_644f2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_644f2.dir/CheckFunctionExists.c.o  -o cmTC_644f2 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_11686/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11686.dir/build.make CMakeFiles/cmTC_11686.dir/build
+make[1]: Entering directory '/home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11686.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_11686.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11686
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11686.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_11686.dir/CheckFunctionExists.c.o  -o cmTC_11686 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_644f2.dir/build.make:97: recipe for target 'cmTC_644f2' failed
-make[1]: *** [cmTC_644f2] Error 1
-make[1]: Leaving directory '/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_644f2/fast' failed
-make: *** [cmTC_644f2/fast] Error 2
+CMakeFiles/cmTC_11686.dir/build.make:97: recipe for target 'cmTC_11686' failed
+make[1]: *** [cmTC_11686] Error 1
+make[1]: Leaving directory '/home/parallels/share/visual_slam_lecture/BundleAdjustment/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_11686/fast' failed
+make: *** [cmTC_11686/fast] Error 2
 
 

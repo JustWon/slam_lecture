@@ -1,3 +1,3 @@
-/home/parallels/Desktop/visual_slam_lecture/Triangulation/build/CMakeFiles/rebuild_cache.dir
-/home/parallels/Desktop/visual_slam_lecture/Triangulation/build/CMakeFiles/triangulation.dir
-/home/parallels/Desktop/visual_slam_lecture/Triangulation/build/CMakeFiles/edit_cache.dir
+/home/parallels/share/visual_slam_lecture/Triangulation/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/share/visual_slam_lecture/Triangulation/build/CMakeFiles/triangulation.dir
+/home/parallels/share/visual_slam_lecture/Triangulation/build/CMakeFiles/edit_cache.dir

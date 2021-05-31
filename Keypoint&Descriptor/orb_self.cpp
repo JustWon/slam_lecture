@@ -10,8 +10,8 @@
 using namespace std;
 
 // global variables
-string first_file = "./1.png";
-string second_file = "./2.png";
+string first_file = "../1.png";
+string second_file = "../2.png";
 
 // 32 bit unsigned int, will have 8, 8x32=256
 typedef vector<uint32_t> DescType; // Descriptor type
@@ -373,14 +373,12 @@ void ComputeORB(const cv::Mat &img, vector<cv::KeyPoint> &keypoints, vector<Desc
       uint32_t d = 0;
       for (int k = 0; k < 32; k++) {
         int idx_pq = i * 32 + k;
-        cv::Point2f p(ORB_pattern[idx_pq * 4], ORB_pattern[idx_pq * 4 + 1]);
+        cv::Point2f p(ORB_pattern[idx_pq * 4]    , ORB_pattern[idx_pq * 4 + 1]);
         cv::Point2f q(ORB_pattern[idx_pq * 4 + 2], ORB_pattern[idx_pq * 4 + 3]);
 
         // rotate with theta
-        cv::Point2f pp = cv::Point2f(cos_theta * p.x - sin_theta * p.y, sin_theta * p.x + cos_theta * p.y)
-                         + kp.pt;
-        cv::Point2f qq = cv::Point2f(cos_theta * q.x - sin_theta * q.y, sin_theta * q.x + cos_theta * q.y)
-                         + kp.pt;
+        cv::Point2f pp = cv::Point2f(cos_theta * p.x - sin_theta * p.y, sin_theta * p.x + cos_theta * p.y) + kp.pt;
+        cv::Point2f qq = cv::Point2f(cos_theta * q.x - sin_theta * q.y, sin_theta * q.x + cos_theta * q.y) + kp.pt;
         if (img.at<uchar>(pp.y, pp.x) < img.at<uchar>(qq.y, qq.x)) {
           d |= 1 << k;
         }

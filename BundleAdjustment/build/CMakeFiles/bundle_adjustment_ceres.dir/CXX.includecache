@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/SnavelyReprojectionError.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/SnavelyReprojectionError.h
 iostream
 -
 ceres/ceres.h
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/ceres/ceres.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/ceres/ceres.h
 rotation.h
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/rotation.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/rotation.h
 
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/bundle_adjustment_ceres.cpp
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/bundle_adjustment_ceres.cpp
 iostream
 -
 ceres/ceres.h
 -
 common.h
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/common.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/common.h
 SnavelyReprojectionError.h
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/SnavelyReprojectionError.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/SnavelyReprojectionError.h
 
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/common.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/common.h
 
-/home/parallels/Desktop/visual_slam_lecture/BundleAdjustment/rotation.h
+/home/parallels/share/visual_slam_lecture/BundleAdjustment/rotation.h
 algorithm
 -
 cmath

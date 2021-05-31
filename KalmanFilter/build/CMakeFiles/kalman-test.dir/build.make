@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/parallels/Desktop/visual_slam_lecture/KalmanFilter
+CMAKE_SOURCE_DIR = /home/parallels/share/visual_slam_lecture/KalmanFilter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/build
+CMAKE_BINARY_DIR = /home/parallels/share/visual_slam_lecture/KalmanFilter/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kalman-test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/kalman-test.dir/flags.make
 
 CMakeFiles/kalman-test.dir/kalman.cpp.o: CMakeFiles/kalman-test.dir/flags.make
 CMakeFiles/kalman-test.dir/kalman.cpp.o: ../kalman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/visual_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kalman-test.dir/kalman.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kalman-test.dir/kalman.cpp.o -c /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/share/visual_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kalman-test.dir/kalman.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kalman-test.dir/kalman.cpp.o -c /home/parallels/share/visual_slam_lecture/KalmanFilter/kalman.cpp
 
 CMakeFiles/kalman-test.dir/kalman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kalman-test.dir/kalman.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman.cpp > CMakeFiles/kalman-test.dir/kalman.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/share/visual_slam_lecture/KalmanFilter/kalman.cpp > CMakeFiles/kalman-test.dir/kalman.cpp.i
 
 CMakeFiles/kalman-test.dir/kalman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kalman-test.dir/kalman.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman.cpp -o CMakeFiles/kalman-test.dir/kalman.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/share/visual_slam_lecture/KalmanFilter/kalman.cpp -o CMakeFiles/kalman-test.dir/kalman.cpp.s
 
 CMakeFiles/kalman-test.dir/kalman.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/kalman-test.dir/kalman.cpp.o.provides.build: CMakeFiles/kalman-test.d
 
 CMakeFiles/kalman-test.dir/kalman-test.cpp.o: CMakeFiles/kalman-test.dir/flags.make
 CMakeFiles/kalman-test.dir/kalman-test.cpp.o: ../kalman-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/Desktop/visual_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kalman-test.dir/kalman-test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kalman-test.dir/kalman-test.cpp.o -c /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman-test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/share/visual_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kalman-test.dir/kalman-test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kalman-test.dir/kalman-test.cpp.o -c /home/parallels/share/visual_slam_lecture/KalmanFilter/kalman-test.cpp
 
 CMakeFiles/kalman-test.dir/kalman-test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kalman-test.dir/kalman-test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman-test.cpp > CMakeFiles/kalman-test.dir/kalman-test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/share/visual_slam_lecture/KalmanFilter/kalman-test.cpp > CMakeFiles/kalman-test.dir/kalman-test.cpp.i
 
 CMakeFiles/kalman-test.dir/kalman-test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kalman-test.dir/kalman-test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/kalman-test.cpp -o CMakeFiles/kalman-test.dir/kalman-test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/share/visual_slam_lecture/KalmanFilter/kalman-test.cpp -o CMakeFiles/kalman-test.dir/kalman-test.cpp.s
 
 CMakeFiles/kalman-test.dir/kalman-test.cpp.o.requires:
 
@@ -117,7 +117,7 @@ kalman-test: CMakeFiles/kalman-test.dir/kalman.cpp.o
 kalman-test: CMakeFiles/kalman-test.dir/kalman-test.cpp.o
 kalman-test: CMakeFiles/kalman-test.dir/build.make
 kalman-test: CMakeFiles/kalman-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/Desktop/visual_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable kalman-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/share/visual_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable kalman-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kalman-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/kalman-test.dir/clean:
 .PHONY : CMakeFiles/kalman-test.dir/clean
 
 CMakeFiles/kalman-test.dir/depend:
-	cd /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/Desktop/visual_slam_lecture/KalmanFilter /home/parallels/Desktop/visual_slam_lecture/KalmanFilter /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/build /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/build /home/parallels/Desktop/visual_slam_lecture/KalmanFilter/build/CMakeFiles/kalman-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parallels/share/visual_slam_lecture/KalmanFilter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parallels/share/visual_slam_lecture/KalmanFilter /home/parallels/share/visual_slam_lecture/KalmanFilter /home/parallels/share/visual_slam_lecture/KalmanFilter/build /home/parallels/share/visual_slam_lecture/KalmanFilter/build /home/parallels/share/visual_slam_lecture/KalmanFilter/build/CMakeFiles/kalman-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kalman-test.dir/depend
 

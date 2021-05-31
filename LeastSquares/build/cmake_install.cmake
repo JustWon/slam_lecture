@@ -1,4 +1,4 @@
-# Install script for directory: /home/parallels/Desktop/visual_slam_lecture/LeastSquares
+# Install script for directory: /home/parallels/share/visual_slam_lecture/LeastSquares
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/parallels/Desktop/visual_slam_lecture/LeastSquares/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/parallels/share/visual_slam_lecture/LeastSquares/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
