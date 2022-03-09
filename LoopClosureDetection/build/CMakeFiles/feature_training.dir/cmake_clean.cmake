@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/feature_training.dir/feature_training.cpp.o"
-  "feature_training.pdb"
   "feature_training"
+  "feature_training.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

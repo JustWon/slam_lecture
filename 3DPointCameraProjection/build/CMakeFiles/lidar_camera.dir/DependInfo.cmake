@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/parallels/share/visual_slam_lecture/3DPointCameraProjection/src/lidar_camera.cpp" "/home/parallels/share/visual_slam_lecture/3DPointCameraProjection/build/CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o"
-  "/home/parallels/share/visual_slam_lecture/3DPointCameraProjection/src/utils.cpp" "/home/parallels/share/visual_slam_lecture/3DPointCameraProjection/build/CMakeFiles/lidar_camera.dir/src/utils.cpp.o"
+  "/home/parallels/Desktop/rgbd_slam_lecture/3DPointCameraProjection/src/lidar_camera.cpp" "/home/parallels/Desktop/rgbd_slam_lecture/3DPointCameraProjection/build/CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o"
+  "/home/parallels/Desktop/rgbd_slam_lecture/3DPointCameraProjection/src/utils.cpp" "/home/parallels/Desktop/rgbd_slam_lecture/3DPointCameraProjection/build/CMakeFiles/lidar_camera.dir/src/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/opencv"
+  "/usr/include/opencv4"
   )
 
 # Targets to which this target links.

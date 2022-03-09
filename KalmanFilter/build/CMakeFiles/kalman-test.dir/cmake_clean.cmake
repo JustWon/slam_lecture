@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/kalman-test.dir/kalman.cpp.o"
   "CMakeFiles/kalman-test.dir/kalman-test.cpp.o"
-  "kalman-test.pdb"
+  "CMakeFiles/kalman-test.dir/kalman.cpp.o"
   "kalman-test"
+  "kalman-test.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

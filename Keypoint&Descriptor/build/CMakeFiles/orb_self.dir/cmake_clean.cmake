@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/orb_self.dir/orb_self.cpp.o"
-  "orb_self.pdb"
   "orb_self"
+  "orb_self.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

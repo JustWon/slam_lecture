@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/loop_closure.dir/loop_closure.cpp.o"
-  "loop_closure.pdb"
   "loop_closure"
+  "loop_closure.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bal_common.dir/common.cpp.o"
-  "libbal_common.pdb"
   "libbal_common.a"
+  "libbal_common.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
