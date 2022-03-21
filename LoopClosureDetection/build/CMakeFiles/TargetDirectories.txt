@@ -1,5 +1,5 @@
-/home/parallels/Desktop/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/rebuild_cache.dir
-/home/parallels/Desktop/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/edit_cache.dir
-/home/parallels/Desktop/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/loop_closure.dir
-/home/parallels/Desktop/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/gen_vocab.dir
-/home/parallels/Desktop/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/feature_training.dir
+/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/rebuild_cache.dir
+/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/edit_cache.dir
+/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/gen_vocab.dir
+/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/feature_training.dir
+/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/loop_closure.dir

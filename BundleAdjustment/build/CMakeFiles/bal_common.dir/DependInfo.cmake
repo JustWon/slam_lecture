@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/parallels/Desktop/rgbd_slam_lecture/BundleAdjustment/common.cpp" "/home/parallels/Desktop/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/bal_common.dir/common.cpp.o"
+  "/share/rgbd_slam_lecture/BundleAdjustment/common.cpp" "/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/bal_common.dir/common.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o"
-  "g2oCurveFitting"
   "g2oCurveFitting.pdb"
+  "g2oCurveFitting"
 )
 
 # Per-language clean rules from dependency scanning.

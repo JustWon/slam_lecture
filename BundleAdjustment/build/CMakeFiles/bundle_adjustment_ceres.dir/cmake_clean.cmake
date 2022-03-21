@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o"
-  "bundle_adjustment_ceres"
   "bundle_adjustment_ceres.pdb"
+  "bundle_adjustment_ceres"
 )
 
 # Per-language clean rules from dependency scanning.
