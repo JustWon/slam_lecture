@@ -9,15 +9,25 @@ list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 find_package(OpenCV REQUIRED)
 find_package(G2O REQUIRED)
 find_package(Sophus REQUIRED)
+find_package(PCL REQUIRED)
+
 
 include_directories(
         ${OpenCV_INCLUDE_DIRS}
         ${G2O_INCLUDE_DIRS}
         ${Sophus_INCLUDE_DIRS}
+        ${PCL_INCLUDE_DIRS}
         "/usr/include/eigen3/"
 )
+link_directories(${PCL_LIBRARY_DIRS})
 
 add_executable(pose_estimation_3d3d pose_estimation_3d3d.cpp)
 target_link_libraries(pose_estimation_3d3d
         g2o_core g2o_stuff
-        ${OpenCV_LIBS})
+        ${OpenCV_LIBS}
+)
+
+add_executable(iterative_closest_points IterativeClosestPoints.cpp)
+target_link_libraries(iterative_closest_points
+        ${PCL_LIBRARIES}
+)
