@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/share/rgbd_slam_lecture/Triangulation/triangulation.cpp
+/share/rgbd_slam_lecture/Triangulation/src/triangulation.cpp
 iostream
 -
 opencv2/opencv.hpp

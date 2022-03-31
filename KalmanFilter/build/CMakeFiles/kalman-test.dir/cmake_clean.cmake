@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/kalman-test.dir/kalman.cpp.o"
-  "CMakeFiles/kalman-test.dir/kalman-test.cpp.o"
+  "CMakeFiles/kalman-test.dir/src/kalman.cpp.o"
+  "CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o"
   "kalman-test.pdb"
   "kalman-test"
 )

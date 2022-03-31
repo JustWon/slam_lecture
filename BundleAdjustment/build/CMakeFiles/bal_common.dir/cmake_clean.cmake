@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bal_common.dir/common.cpp.o"
+  "CMakeFiles/bal_common.dir/src/common.cpp.o"
   "libbal_common.pdb"
   "libbal_common.a"
 )

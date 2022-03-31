@@ -123,32 +123,32 @@ triangulation/fast:
 	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/build
 .PHONY : triangulation/fast
 
-triangulation.o: triangulation.cpp.o
+src/triangulation.o: src/triangulation.cpp.o
 
-.PHONY : triangulation.o
+.PHONY : src/triangulation.o
 
 # target to build an object file
-triangulation.cpp.o:
-	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/triangulation.cpp.o
-.PHONY : triangulation.cpp.o
+src/triangulation.cpp.o:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/src/triangulation.cpp.o
+.PHONY : src/triangulation.cpp.o
 
-triangulation.i: triangulation.cpp.i
+src/triangulation.i: src/triangulation.cpp.i
 
-.PHONY : triangulation.i
+.PHONY : src/triangulation.i
 
 # target to preprocess a source file
-triangulation.cpp.i:
-	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/triangulation.cpp.i
-.PHONY : triangulation.cpp.i
+src/triangulation.cpp.i:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/src/triangulation.cpp.i
+.PHONY : src/triangulation.cpp.i
 
-triangulation.s: triangulation.cpp.s
+src/triangulation.s: src/triangulation.cpp.s
 
-.PHONY : triangulation.s
+.PHONY : src/triangulation.s
 
 # target to generate assembly for a file
-triangulation.cpp.s:
-	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/triangulation.cpp.s
-.PHONY : triangulation.cpp.s
+src/triangulation.cpp.s:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/src/triangulation.cpp.s
+.PHONY : src/triangulation.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... triangulation"
 	@echo "... edit_cache"
-	@echo "... triangulation.o"
-	@echo "... triangulation.i"
-	@echo "... triangulation.s"
+	@echo "... src/triangulation.o"
+	@echo "... src/triangulation.i"
+	@echo "... src/triangulation.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/share/rgbd_slam_lecture/BundleAdjustment/common.cpp" "/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/bal_common.dir/common.cpp.o"
+  "/share/rgbd_slam_lecture/BundleAdjustment/src/common.cpp" "/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/bal_common.dir/src/common.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,6 +13,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
   "/usr/include/eigen3"
   "/usr/include/suitesparse"
+  "../include"
   )
 
 # Targets to which this target links.

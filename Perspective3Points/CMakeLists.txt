@@ -17,7 +17,7 @@ include_directories(
         "/usr/include/eigen3/"
 )
 
-add_executable(pose_estimation_3d2d pose_estimation_3d2d.cpp)
+add_executable(pose_estimation_3d2d src/pose_estimation_3d2d.cpp)
 target_link_libraries(pose_estimation_3d2d
         g2o_core g2o_stuff
         ${OpenCV_LIBS})

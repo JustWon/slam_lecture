@@ -57,38 +57,38 @@ include CMakeFiles/feature_training.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/feature_training.dir/flags.make
 
-CMakeFiles/feature_training.dir/feature_training.cpp.o: CMakeFiles/feature_training.dir/flags.make
-CMakeFiles/feature_training.dir/feature_training.cpp.o: ../feature_training.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/feature_training.dir/feature_training.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/feature_training.dir/feature_training.cpp.o -c /share/rgbd_slam_lecture/LoopClosureDetection/feature_training.cpp
+CMakeFiles/feature_training.dir/src/feature_training.cpp.o: CMakeFiles/feature_training.dir/flags.make
+CMakeFiles/feature_training.dir/src/feature_training.cpp.o: ../src/feature_training.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/feature_training.dir/src/feature_training.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/feature_training.dir/src/feature_training.cpp.o -c /share/rgbd_slam_lecture/LoopClosureDetection/src/feature_training.cpp
 
-CMakeFiles/feature_training.dir/feature_training.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/feature_training.dir/feature_training.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LoopClosureDetection/feature_training.cpp > CMakeFiles/feature_training.dir/feature_training.cpp.i
+CMakeFiles/feature_training.dir/src/feature_training.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/feature_training.dir/src/feature_training.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LoopClosureDetection/src/feature_training.cpp > CMakeFiles/feature_training.dir/src/feature_training.cpp.i
 
-CMakeFiles/feature_training.dir/feature_training.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/feature_training.dir/feature_training.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LoopClosureDetection/feature_training.cpp -o CMakeFiles/feature_training.dir/feature_training.cpp.s
+CMakeFiles/feature_training.dir/src/feature_training.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/feature_training.dir/src/feature_training.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LoopClosureDetection/src/feature_training.cpp -o CMakeFiles/feature_training.dir/src/feature_training.cpp.s
 
-CMakeFiles/feature_training.dir/feature_training.cpp.o.requires:
+CMakeFiles/feature_training.dir/src/feature_training.cpp.o.requires:
 
-.PHONY : CMakeFiles/feature_training.dir/feature_training.cpp.o.requires
+.PHONY : CMakeFiles/feature_training.dir/src/feature_training.cpp.o.requires
 
-CMakeFiles/feature_training.dir/feature_training.cpp.o.provides: CMakeFiles/feature_training.dir/feature_training.cpp.o.requires
-	$(MAKE) -f CMakeFiles/feature_training.dir/build.make CMakeFiles/feature_training.dir/feature_training.cpp.o.provides.build
-.PHONY : CMakeFiles/feature_training.dir/feature_training.cpp.o.provides
+CMakeFiles/feature_training.dir/src/feature_training.cpp.o.provides: CMakeFiles/feature_training.dir/src/feature_training.cpp.o.requires
+	$(MAKE) -f CMakeFiles/feature_training.dir/build.make CMakeFiles/feature_training.dir/src/feature_training.cpp.o.provides.build
+.PHONY : CMakeFiles/feature_training.dir/src/feature_training.cpp.o.provides
 
-CMakeFiles/feature_training.dir/feature_training.cpp.o.provides.build: CMakeFiles/feature_training.dir/feature_training.cpp.o
+CMakeFiles/feature_training.dir/src/feature_training.cpp.o.provides.build: CMakeFiles/feature_training.dir/src/feature_training.cpp.o
 
 
 # Object files for target feature_training
 feature_training_OBJECTS = \
-"CMakeFiles/feature_training.dir/feature_training.cpp.o"
+"CMakeFiles/feature_training.dir/src/feature_training.cpp.o"
 
 # External object files for target feature_training
 feature_training_EXTERNAL_OBJECTS =
 
-feature_training: CMakeFiles/feature_training.dir/feature_training.cpp.o
+feature_training: CMakeFiles/feature_training.dir/src/feature_training.cpp.o
 feature_training: CMakeFiles/feature_training.dir/build.make
 feature_training: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.3.2.0
 feature_training: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.3.2.0
@@ -141,7 +141,7 @@ CMakeFiles/feature_training.dir/build: feature_training
 
 .PHONY : CMakeFiles/feature_training.dir/build
 
-CMakeFiles/feature_training.dir/requires: CMakeFiles/feature_training.dir/feature_training.cpp.o.requires
+CMakeFiles/feature_training.dir/requires: CMakeFiles/feature_training.dir/src/feature_training.cpp.o.requires
 
 .PHONY : CMakeFiles/feature_training.dir/requires
 

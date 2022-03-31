@@ -3,17 +3,14 @@
 #include <pcl/point_types.h>
 #include <pcl/filters/statistical_outlier_removal.h>
 
-// Removing outliers using a StatisticalOutlierRemoval filter
-// http://pointclouds.org/documentation/tutorials/statistical_outlier.php#statistical-outlier-removal
 
 int main (int argc, char** argv)
 {
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered (new pcl::PointCloud<pcl::PointXYZ>);
 
-  // *.PCD 파일 읽기 (https://raw.github.com/PointCloudLibrary/data/master/tutorials/table_scene_lms400.pcd)
   pcl::PCDReader reader;
-  reader.read<pcl::PointXYZ> ("table_scene_lms400.pcd", *cloud);
+  reader.read<pcl::PointXYZ> (argv[1], *cloud);
 
   // 포인트수 출력
   std::cerr << "Cloud before filtering: " << std::endl;

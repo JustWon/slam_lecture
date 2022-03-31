@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -std=c++11 -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/share/rgbd_slam_lecture/BundleAdjustment -I/usr/include/eigen3 -I/usr/include/suitesparse 
+CXX_INCLUDES = -I/share/rgbd_slam_lecture/BundleAdjustment -I/usr/include/eigen3 -I/usr/include/suitesparse -I/share/rgbd_slam_lecture/BundleAdjustment/include 
 

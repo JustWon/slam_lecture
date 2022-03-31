@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/share/rgbd_slam_lecture/LeastSquares/g2oCurveFitting.cpp" "/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o"
+  "/share/rgbd_slam_lecture/LeastSquares/src/g2oCurveFitting.cpp" "/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -15,6 +15,5 @@ add_definitions(${OpenCV_DEFINITIONS})
 
 # Executables for exercises
 
-set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ../)
 add_executable (lidar_camera src/lidar_camera.cpp src/utils.cpp)
 target_link_libraries (lidar_camera ${OpenCV_LIBRARIES})

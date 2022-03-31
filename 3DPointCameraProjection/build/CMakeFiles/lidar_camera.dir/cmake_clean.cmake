@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lidar_camera.dir/src/lidar_camera.cpp.o"
   "CMakeFiles/lidar_camera.dir/src/utils.cpp.o"
-  "../lidar_camera.pdb"
-  "../lidar_camera"
+  "lidar_camera.pdb"
+  "lidar_camera"
 )
 
 # Per-language clean rules from dependency scanning.

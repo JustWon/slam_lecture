@@ -123,32 +123,32 @@ pose_graph_g2o_SE3/fast:
 	$(MAKE) -f CMakeFiles/pose_graph_g2o_SE3.dir/build.make CMakeFiles/pose_graph_g2o_SE3.dir/build
 .PHONY : pose_graph_g2o_SE3/fast
 
-pose_graph_g2o_SE3.o: pose_graph_g2o_SE3.cpp.o
+src/pose_graph_g2o_SE3.o: src/pose_graph_g2o_SE3.cpp.o
 
-.PHONY : pose_graph_g2o_SE3.o
+.PHONY : src/pose_graph_g2o_SE3.o
 
 # target to build an object file
-pose_graph_g2o_SE3.cpp.o:
-	$(MAKE) -f CMakeFiles/pose_graph_g2o_SE3.dir/build.make CMakeFiles/pose_graph_g2o_SE3.dir/pose_graph_g2o_SE3.cpp.o
-.PHONY : pose_graph_g2o_SE3.cpp.o
+src/pose_graph_g2o_SE3.cpp.o:
+	$(MAKE) -f CMakeFiles/pose_graph_g2o_SE3.dir/build.make CMakeFiles/pose_graph_g2o_SE3.dir/src/pose_graph_g2o_SE3.cpp.o
+.PHONY : src/pose_graph_g2o_SE3.cpp.o
 
-pose_graph_g2o_SE3.i: pose_graph_g2o_SE3.cpp.i
+src/pose_graph_g2o_SE3.i: src/pose_graph_g2o_SE3.cpp.i
 
-.PHONY : pose_graph_g2o_SE3.i
+.PHONY : src/pose_graph_g2o_SE3.i
 
 # target to preprocess a source file
-pose_graph_g2o_SE3.cpp.i:
-	$(MAKE) -f CMakeFiles/pose_graph_g2o_SE3.dir/build.make CMakeFiles/pose_graph_g2o_SE3.dir/pose_graph_g2o_SE3.cpp.i
-.PHONY : pose_graph_g2o_SE3.cpp.i
+src/pose_graph_g2o_SE3.cpp.i:
+	$(MAKE) -f CMakeFiles/pose_graph_g2o_SE3.dir/build.make CMakeFiles/pose_graph_g2o_SE3.dir/src/pose_graph_g2o_SE3.cpp.i
+.PHONY : src/pose_graph_g2o_SE3.cpp.i
 
-pose_graph_g2o_SE3.s: pose_graph_g2o_SE3.cpp.s
+src/pose_graph_g2o_SE3.s: src/pose_graph_g2o_SE3.cpp.s
 
-.PHONY : pose_graph_g2o_SE3.s
+.PHONY : src/pose_graph_g2o_SE3.s
 
 # target to generate assembly for a file
-pose_graph_g2o_SE3.cpp.s:
-	$(MAKE) -f CMakeFiles/pose_graph_g2o_SE3.dir/build.make CMakeFiles/pose_graph_g2o_SE3.dir/pose_graph_g2o_SE3.cpp.s
-.PHONY : pose_graph_g2o_SE3.cpp.s
+src/pose_graph_g2o_SE3.cpp.s:
+	$(MAKE) -f CMakeFiles/pose_graph_g2o_SE3.dir/build.make CMakeFiles/pose_graph_g2o_SE3.dir/src/pose_graph_g2o_SE3.cpp.s
+.PHONY : src/pose_graph_g2o_SE3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... pose_graph_g2o_SE3"
 	@echo "... edit_cache"
-	@echo "... pose_graph_g2o_SE3.o"
-	@echo "... pose_graph_g2o_SE3.i"
-	@echo "... pose_graph_g2o_SE3.s"
+	@echo "... src/pose_graph_g2o_SE3.o"
+	@echo "... src/pose_graph_g2o_SE3.i"
+	@echo "... src/pose_graph_g2o_SE3.s"
 .PHONY : help
 
 

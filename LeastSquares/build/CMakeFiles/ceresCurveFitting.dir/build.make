@@ -57,38 +57,38 @@ include CMakeFiles/ceresCurveFitting.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ceresCurveFitting.dir/flags.make
 
-CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o: CMakeFiles/ceresCurveFitting.dir/flags.make
-CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o: ../ceresCurveFitting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o -c /share/rgbd_slam_lecture/LeastSquares/ceresCurveFitting.cpp
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o: CMakeFiles/ceresCurveFitting.dir/flags.make
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o: ../src/ceresCurveFitting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o -c /share/rgbd_slam_lecture/LeastSquares/src/ceresCurveFitting.cpp
 
-CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LeastSquares/ceresCurveFitting.cpp > CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.i
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LeastSquares/src/ceresCurveFitting.cpp > CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.i
 
-CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LeastSquares/ceresCurveFitting.cpp -o CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.s
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LeastSquares/src/ceresCurveFitting.cpp -o CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.s
 
-CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o.requires:
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o.requires:
 
-.PHONY : CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o.requires
+.PHONY : CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o.requires
 
-CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o.provides: CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ceresCurveFitting.dir/build.make CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o.provides.build
-.PHONY : CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o.provides
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o.provides: CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ceresCurveFitting.dir/build.make CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o.provides.build
+.PHONY : CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o.provides
 
-CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o.provides.build: CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o
+CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o.provides.build: CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o
 
 
 # Object files for target ceresCurveFitting
 ceresCurveFitting_OBJECTS = \
-"CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o"
+"CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o"
 
 # External object files for target ceresCurveFitting
 ceresCurveFitting_EXTERNAL_OBJECTS =
 
-ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o
+ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o
 ceresCurveFitting: CMakeFiles/ceresCurveFitting.dir/build.make
 ceresCurveFitting: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.3.2.0
 ceresCurveFitting: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.3.2.0
@@ -160,7 +160,7 @@ CMakeFiles/ceresCurveFitting.dir/build: ceresCurveFitting
 
 .PHONY : CMakeFiles/ceresCurveFitting.dir/build
 
-CMakeFiles/ceresCurveFitting.dir/requires: CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o.requires
+CMakeFiles/ceresCurveFitting.dir/requires: CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o.requires
 
 .PHONY : CMakeFiles/ceresCurveFitting.dir/requires
 

@@ -3,16 +3,13 @@
 #include <pcl/point_types.h>
 #include <pcl/filters/passthrough.h>
 
-//Filtering a PointCloud using a PassThrough filter
-//http://pointclouds.org/documentation/tutorials/passthrough.php#passthrough
 
 int main (int argc, char** argv)
 {
   pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZRGB>);
   pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud_filtered (new pcl::PointCloud<pcl::PointXYZRGB>);
 
-  // *.PCD 파일 읽기 (https://raw.githubusercontent.com/adioshun/gitBook_Tutorial_PCL/master/Beginner/sample/tabletop.pcd)
-  pcl::io::loadPCDFile<pcl::PointXYZRGB> ("tabletop.pcd", *cloud);
+  pcl::io::loadPCDFile<pcl::PointXYZRGB> (argv[1], *cloud);
 
   // 포인트수 출력
   std::cout << "Loaded :" << cloud->width * cloud->height  << std::endl;

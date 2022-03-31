@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/share/rgbd_slam_lecture/LoopClosureDetection/gen_vocab_large.cpp
+/share/rgbd_slam_lecture/LoopClosureDetection/src/gen_vocab_large.cpp
 DBoW3/DBoW3.h
-/share/rgbd_slam_lecture/LoopClosureDetection/DBoW3/DBoW3.h
+/share/rgbd_slam_lecture/LoopClosureDetection/src/DBoW3/DBoW3.h
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp

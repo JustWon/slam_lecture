@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/share/rgbd_slam_lecture/LeastSquares/ceresCurveFitting.cpp
+/share/rgbd_slam_lecture/LeastSquares/src/ceresCurveFitting.cpp
 iostream
 -
 opencv2/core/core.hpp

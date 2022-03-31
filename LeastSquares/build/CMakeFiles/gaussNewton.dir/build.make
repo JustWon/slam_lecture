@@ -57,38 +57,38 @@ include CMakeFiles/gaussNewton.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/gaussNewton.dir/flags.make
 
-CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o: CMakeFiles/gaussNewton.dir/flags.make
-CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o: ../gaussNewton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o -c /share/rgbd_slam_lecture/LeastSquares/gaussNewton.cpp
+CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o: CMakeFiles/gaussNewton.dir/flags.make
+CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o: ../src/gaussNewton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o -c /share/rgbd_slam_lecture/LeastSquares/src/gaussNewton.cpp
 
-CMakeFiles/gaussNewton.dir/gaussNewton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gaussNewton.dir/gaussNewton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LeastSquares/gaussNewton.cpp > CMakeFiles/gaussNewton.dir/gaussNewton.cpp.i
+CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LeastSquares/src/gaussNewton.cpp > CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.i
 
-CMakeFiles/gaussNewton.dir/gaussNewton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gaussNewton.dir/gaussNewton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LeastSquares/gaussNewton.cpp -o CMakeFiles/gaussNewton.dir/gaussNewton.cpp.s
+CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LeastSquares/src/gaussNewton.cpp -o CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.s
 
-CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o.requires:
+CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o.requires:
 
-.PHONY : CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o.requires
+.PHONY : CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o.requires
 
-CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o.provides: CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o.requires
-	$(MAKE) -f CMakeFiles/gaussNewton.dir/build.make CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o.provides.build
-.PHONY : CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o.provides
+CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o.provides: CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o.requires
+	$(MAKE) -f CMakeFiles/gaussNewton.dir/build.make CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o.provides.build
+.PHONY : CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o.provides
 
-CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o.provides.build: CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o
+CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o.provides.build: CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o
 
 
 # Object files for target gaussNewton
 gaussNewton_OBJECTS = \
-"CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o"
+"CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o"
 
 # External object files for target gaussNewton
 gaussNewton_EXTERNAL_OBJECTS =
 
-gaussNewton: CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o
+gaussNewton: CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o
 gaussNewton: CMakeFiles/gaussNewton.dir/build.make
 gaussNewton: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.3.2.0
 gaussNewton: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.3.2.0
@@ -140,7 +140,7 @@ CMakeFiles/gaussNewton.dir/build: gaussNewton
 
 .PHONY : CMakeFiles/gaussNewton.dir/build
 
-CMakeFiles/gaussNewton.dir/requires: CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o.requires
+CMakeFiles/gaussNewton.dir/requires: CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o.requires
 
 .PHONY : CMakeFiles/gaussNewton.dir/requires
 

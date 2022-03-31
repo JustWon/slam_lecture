@@ -123,32 +123,32 @@ orb_cv/fast:
 	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/build
 .PHONY : orb_cv/fast
 
-orb_cv.o: orb_cv.cpp.o
+src/orb_cv.o: src/orb_cv.cpp.o
 
-.PHONY : orb_cv.o
+.PHONY : src/orb_cv.o
 
 # target to build an object file
-orb_cv.cpp.o:
-	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/orb_cv.cpp.o
-.PHONY : orb_cv.cpp.o
+src/orb_cv.cpp.o:
+	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/src/orb_cv.cpp.o
+.PHONY : src/orb_cv.cpp.o
 
-orb_cv.i: orb_cv.cpp.i
+src/orb_cv.i: src/orb_cv.cpp.i
 
-.PHONY : orb_cv.i
+.PHONY : src/orb_cv.i
 
 # target to preprocess a source file
-orb_cv.cpp.i:
-	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/orb_cv.cpp.i
-.PHONY : orb_cv.cpp.i
+src/orb_cv.cpp.i:
+	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/src/orb_cv.cpp.i
+.PHONY : src/orb_cv.cpp.i
 
-orb_cv.s: orb_cv.cpp.s
+src/orb_cv.s: src/orb_cv.cpp.s
 
-.PHONY : orb_cv.s
+.PHONY : src/orb_cv.s
 
 # target to generate assembly for a file
-orb_cv.cpp.s:
-	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/orb_cv.cpp.s
-.PHONY : orb_cv.cpp.s
+src/orb_cv.cpp.s:
+	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/src/orb_cv.cpp.s
+.PHONY : src/orb_cv.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... orb_cv"
 	@echo "... edit_cache"
-	@echo "... orb_cv.o"
-	@echo "... orb_cv.i"
-	@echo "... orb_cv.s"
+	@echo "... src/orb_cv.o"
+	@echo "... src/orb_cv.i"
+	@echo "... src/orb_cv.s"
 .PHONY : help
 
 

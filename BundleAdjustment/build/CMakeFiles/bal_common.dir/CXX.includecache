@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/share/rgbd_slam_lecture/BundleAdjustment/common.cpp
+../include/common.h
+
+../include/random.h
+math.h
+-
+stdlib.h
+-
+
+../include/rotation.h
+algorithm
+-
+cmath
+-
+limits
+-
+
+/share/rgbd_slam_lecture/BundleAdjustment/src/common.cpp
 cstdio
 -
 fstream
@@ -22,27 +38,11 @@ Eigen/Core
 Eigen/Dense
 -
 common.h
-/share/rgbd_slam_lecture/BundleAdjustment/common.h
+/share/rgbd_slam_lecture/BundleAdjustment/src/common.h
 rotation.h
-/share/rgbd_slam_lecture/BundleAdjustment/rotation.h
+/share/rgbd_slam_lecture/BundleAdjustment/src/rotation.h
 random.h
-/share/rgbd_slam_lecture/BundleAdjustment/random.h
-
-/share/rgbd_slam_lecture/BundleAdjustment/common.h
-
-/share/rgbd_slam_lecture/BundleAdjustment/random.h
-math.h
--
-stdlib.h
--
-
-/share/rgbd_slam_lecture/BundleAdjustment/rotation.h
-algorithm
--
-cmath
--
-limits
--
+/share/rgbd_slam_lecture/BundleAdjustment/src/random.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

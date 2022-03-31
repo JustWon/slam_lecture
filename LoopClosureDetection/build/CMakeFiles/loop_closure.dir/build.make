@@ -57,38 +57,38 @@ include CMakeFiles/loop_closure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/loop_closure.dir/flags.make
 
-CMakeFiles/loop_closure.dir/loop_closure.cpp.o: CMakeFiles/loop_closure.dir/flags.make
-CMakeFiles/loop_closure.dir/loop_closure.cpp.o: ../loop_closure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/loop_closure.dir/loop_closure.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/loop_closure.dir/loop_closure.cpp.o -c /share/rgbd_slam_lecture/LoopClosureDetection/loop_closure.cpp
+CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o: CMakeFiles/loop_closure.dir/flags.make
+CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o: ../src/loop_closure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o -c /share/rgbd_slam_lecture/LoopClosureDetection/src/loop_closure.cpp
 
-CMakeFiles/loop_closure.dir/loop_closure.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/loop_closure.dir/loop_closure.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LoopClosureDetection/loop_closure.cpp > CMakeFiles/loop_closure.dir/loop_closure.cpp.i
+CMakeFiles/loop_closure.dir/src/loop_closure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/loop_closure.dir/src/loop_closure.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LoopClosureDetection/src/loop_closure.cpp > CMakeFiles/loop_closure.dir/src/loop_closure.cpp.i
 
-CMakeFiles/loop_closure.dir/loop_closure.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/loop_closure.dir/loop_closure.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LoopClosureDetection/loop_closure.cpp -o CMakeFiles/loop_closure.dir/loop_closure.cpp.s
+CMakeFiles/loop_closure.dir/src/loop_closure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/loop_closure.dir/src/loop_closure.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LoopClosureDetection/src/loop_closure.cpp -o CMakeFiles/loop_closure.dir/src/loop_closure.cpp.s
 
-CMakeFiles/loop_closure.dir/loop_closure.cpp.o.requires:
+CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o.requires:
 
-.PHONY : CMakeFiles/loop_closure.dir/loop_closure.cpp.o.requires
+.PHONY : CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o.requires
 
-CMakeFiles/loop_closure.dir/loop_closure.cpp.o.provides: CMakeFiles/loop_closure.dir/loop_closure.cpp.o.requires
-	$(MAKE) -f CMakeFiles/loop_closure.dir/build.make CMakeFiles/loop_closure.dir/loop_closure.cpp.o.provides.build
-.PHONY : CMakeFiles/loop_closure.dir/loop_closure.cpp.o.provides
+CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o.provides: CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o.requires
+	$(MAKE) -f CMakeFiles/loop_closure.dir/build.make CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o.provides.build
+.PHONY : CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o.provides
 
-CMakeFiles/loop_closure.dir/loop_closure.cpp.o.provides.build: CMakeFiles/loop_closure.dir/loop_closure.cpp.o
+CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o.provides.build: CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o
 
 
 # Object files for target loop_closure
 loop_closure_OBJECTS = \
-"CMakeFiles/loop_closure.dir/loop_closure.cpp.o"
+"CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o"
 
 # External object files for target loop_closure
 loop_closure_EXTERNAL_OBJECTS =
 
-loop_closure: CMakeFiles/loop_closure.dir/loop_closure.cpp.o
+loop_closure: CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o
 loop_closure: CMakeFiles/loop_closure.dir/build.make
 loop_closure: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.3.2.0
 loop_closure: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.3.2.0
@@ -141,7 +141,7 @@ CMakeFiles/loop_closure.dir/build: loop_closure
 
 .PHONY : CMakeFiles/loop_closure.dir/build
 
-CMakeFiles/loop_closure.dir/requires: CMakeFiles/loop_closure.dir/loop_closure.cpp.o.requires
+CMakeFiles/loop_closure.dir/requires: CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o.requires
 
 .PHONY : CMakeFiles/loop_closure.dir/requires
 

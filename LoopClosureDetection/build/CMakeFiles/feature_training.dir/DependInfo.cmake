@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/share/rgbd_slam_lecture/LoopClosureDetection/feature_training.cpp" "/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/feature_training.dir/feature_training.cpp.o"
+  "/share/rgbd_slam_lecture/LoopClosureDetection/src/feature_training.cpp" "/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/feature_training.dir/src/feature_training.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

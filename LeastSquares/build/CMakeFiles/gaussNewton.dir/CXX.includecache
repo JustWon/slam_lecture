@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/share/rgbd_slam_lecture/LeastSquares/gaussNewton.cpp
+/share/rgbd_slam_lecture/LeastSquares/src/gaussNewton.cpp
 iostream
 -
 chrono

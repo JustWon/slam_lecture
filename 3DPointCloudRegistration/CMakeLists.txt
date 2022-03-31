@@ -21,13 +21,13 @@ include_directories(
 )
 link_directories(${PCL_LIBRARY_DIRS})
 
-add_executable(pose_estimation_3d3d pose_estimation_3d3d.cpp)
+add_executable(pose_estimation_3d3d src/pose_estimation_3d3d.cpp)
 target_link_libraries(pose_estimation_3d3d
         g2o_core g2o_stuff
         ${OpenCV_LIBS}
 )
 
-add_executable(iterative_closest_points IterativeClosestPoints.cpp)
+add_executable(iterative_closest_points src/IterativeClosestPoints.cpp)
 target_link_libraries(iterative_closest_points
         ${PCL_LIBRARIES}
 )

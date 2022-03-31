@@ -149,86 +149,86 @@ ceresCurveFitting/fast:
 	$(MAKE) -f CMakeFiles/ceresCurveFitting.dir/build.make CMakeFiles/ceresCurveFitting.dir/build
 .PHONY : ceresCurveFitting/fast
 
-ceresCurveFitting.o: ceresCurveFitting.cpp.o
+src/ceresCurveFitting.o: src/ceresCurveFitting.cpp.o
 
-.PHONY : ceresCurveFitting.o
-
-# target to build an object file
-ceresCurveFitting.cpp.o:
-	$(MAKE) -f CMakeFiles/ceresCurveFitting.dir/build.make CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o
-.PHONY : ceresCurveFitting.cpp.o
-
-ceresCurveFitting.i: ceresCurveFitting.cpp.i
-
-.PHONY : ceresCurveFitting.i
-
-# target to preprocess a source file
-ceresCurveFitting.cpp.i:
-	$(MAKE) -f CMakeFiles/ceresCurveFitting.dir/build.make CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.i
-.PHONY : ceresCurveFitting.cpp.i
-
-ceresCurveFitting.s: ceresCurveFitting.cpp.s
-
-.PHONY : ceresCurveFitting.s
-
-# target to generate assembly for a file
-ceresCurveFitting.cpp.s:
-	$(MAKE) -f CMakeFiles/ceresCurveFitting.dir/build.make CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.s
-.PHONY : ceresCurveFitting.cpp.s
-
-g2oCurveFitting.o: g2oCurveFitting.cpp.o
-
-.PHONY : g2oCurveFitting.o
+.PHONY : src/ceresCurveFitting.o
 
 # target to build an object file
-g2oCurveFitting.cpp.o:
-	$(MAKE) -f CMakeFiles/g2oCurveFitting.dir/build.make CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o
-.PHONY : g2oCurveFitting.cpp.o
+src/ceresCurveFitting.cpp.o:
+	$(MAKE) -f CMakeFiles/ceresCurveFitting.dir/build.make CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o
+.PHONY : src/ceresCurveFitting.cpp.o
 
-g2oCurveFitting.i: g2oCurveFitting.cpp.i
+src/ceresCurveFitting.i: src/ceresCurveFitting.cpp.i
 
-.PHONY : g2oCurveFitting.i
+.PHONY : src/ceresCurveFitting.i
 
 # target to preprocess a source file
-g2oCurveFitting.cpp.i:
-	$(MAKE) -f CMakeFiles/g2oCurveFitting.dir/build.make CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.i
-.PHONY : g2oCurveFitting.cpp.i
+src/ceresCurveFitting.cpp.i:
+	$(MAKE) -f CMakeFiles/ceresCurveFitting.dir/build.make CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.i
+.PHONY : src/ceresCurveFitting.cpp.i
 
-g2oCurveFitting.s: g2oCurveFitting.cpp.s
+src/ceresCurveFitting.s: src/ceresCurveFitting.cpp.s
 
-.PHONY : g2oCurveFitting.s
+.PHONY : src/ceresCurveFitting.s
 
 # target to generate assembly for a file
-g2oCurveFitting.cpp.s:
-	$(MAKE) -f CMakeFiles/g2oCurveFitting.dir/build.make CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.s
-.PHONY : g2oCurveFitting.cpp.s
+src/ceresCurveFitting.cpp.s:
+	$(MAKE) -f CMakeFiles/ceresCurveFitting.dir/build.make CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.s
+.PHONY : src/ceresCurveFitting.cpp.s
 
-gaussNewton.o: gaussNewton.cpp.o
+src/g2oCurveFitting.o: src/g2oCurveFitting.cpp.o
 
-.PHONY : gaussNewton.o
+.PHONY : src/g2oCurveFitting.o
 
 # target to build an object file
-gaussNewton.cpp.o:
-	$(MAKE) -f CMakeFiles/gaussNewton.dir/build.make CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o
-.PHONY : gaussNewton.cpp.o
+src/g2oCurveFitting.cpp.o:
+	$(MAKE) -f CMakeFiles/g2oCurveFitting.dir/build.make CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o
+.PHONY : src/g2oCurveFitting.cpp.o
 
-gaussNewton.i: gaussNewton.cpp.i
+src/g2oCurveFitting.i: src/g2oCurveFitting.cpp.i
 
-.PHONY : gaussNewton.i
+.PHONY : src/g2oCurveFitting.i
 
 # target to preprocess a source file
-gaussNewton.cpp.i:
-	$(MAKE) -f CMakeFiles/gaussNewton.dir/build.make CMakeFiles/gaussNewton.dir/gaussNewton.cpp.i
-.PHONY : gaussNewton.cpp.i
+src/g2oCurveFitting.cpp.i:
+	$(MAKE) -f CMakeFiles/g2oCurveFitting.dir/build.make CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.i
+.PHONY : src/g2oCurveFitting.cpp.i
 
-gaussNewton.s: gaussNewton.cpp.s
+src/g2oCurveFitting.s: src/g2oCurveFitting.cpp.s
 
-.PHONY : gaussNewton.s
+.PHONY : src/g2oCurveFitting.s
 
 # target to generate assembly for a file
-gaussNewton.cpp.s:
-	$(MAKE) -f CMakeFiles/gaussNewton.dir/build.make CMakeFiles/gaussNewton.dir/gaussNewton.cpp.s
-.PHONY : gaussNewton.cpp.s
+src/g2oCurveFitting.cpp.s:
+	$(MAKE) -f CMakeFiles/g2oCurveFitting.dir/build.make CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.s
+.PHONY : src/g2oCurveFitting.cpp.s
+
+src/gaussNewton.o: src/gaussNewton.cpp.o
+
+.PHONY : src/gaussNewton.o
+
+# target to build an object file
+src/gaussNewton.cpp.o:
+	$(MAKE) -f CMakeFiles/gaussNewton.dir/build.make CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o
+.PHONY : src/gaussNewton.cpp.o
+
+src/gaussNewton.i: src/gaussNewton.cpp.i
+
+.PHONY : src/gaussNewton.i
+
+# target to preprocess a source file
+src/gaussNewton.cpp.i:
+	$(MAKE) -f CMakeFiles/gaussNewton.dir/build.make CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.i
+.PHONY : src/gaussNewton.cpp.i
+
+src/gaussNewton.s: src/gaussNewton.cpp.s
+
+.PHONY : src/gaussNewton.s
+
+# target to generate assembly for a file
+src/gaussNewton.cpp.s:
+	$(MAKE) -f CMakeFiles/gaussNewton.dir/build.make CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.s
+.PHONY : src/gaussNewton.cpp.s
 
 # Help Target
 help:
@@ -241,15 +241,15 @@ help:
 	@echo "... g2oCurveFitting"
 	@echo "... gaussNewton"
 	@echo "... ceresCurveFitting"
-	@echo "... ceresCurveFitting.o"
-	@echo "... ceresCurveFitting.i"
-	@echo "... ceresCurveFitting.s"
-	@echo "... g2oCurveFitting.o"
-	@echo "... g2oCurveFitting.i"
-	@echo "... g2oCurveFitting.s"
-	@echo "... gaussNewton.o"
-	@echo "... gaussNewton.i"
-	@echo "... gaussNewton.s"
+	@echo "... src/ceresCurveFitting.o"
+	@echo "... src/ceresCurveFitting.i"
+	@echo "... src/ceresCurveFitting.s"
+	@echo "... src/g2oCurveFitting.o"
+	@echo "... src/g2oCurveFitting.i"
+	@echo "... src/g2oCurveFitting.s"
+	@echo "... src/gaussNewton.o"
+	@echo "... src/gaussNewton.i"
+	@echo "... src/gaussNewton.s"
 .PHONY : help
 
 

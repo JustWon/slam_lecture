@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/share/rgbd_slam_lecture/BundleAdjustment/SnavelyReprojectionError.h
+..//SnavelyReprojectionError.h
 iostream
 -
 ceres/ceres.h
-/share/rgbd_slam_lecture/BundleAdjustment/ceres/ceres.h
+../ceres/ceres.h
 rotation.h
-/share/rgbd_slam_lecture/BundleAdjustment/rotation.h
+../rotation.h
 
-/share/rgbd_slam_lecture/BundleAdjustment/bundle_adjustment_ceres.cpp
-iostream
--
-ceres/ceres.h
--
-common.h
-/share/rgbd_slam_lecture/BundleAdjustment/common.h
-SnavelyReprojectionError.h
-/share/rgbd_slam_lecture/BundleAdjustment/SnavelyReprojectionError.h
+../include/common.h
 
-/share/rgbd_slam_lecture/BundleAdjustment/common.h
-
-/share/rgbd_slam_lecture/BundleAdjustment/rotation.h
+../include/rotation.h
 algorithm
 -
 cmath
 -
 limits
 -
+
+/share/rgbd_slam_lecture/BundleAdjustment/src/bundle_adjustment_ceres.cpp
+iostream
+-
+ceres/ceres.h
+-
+common.h
+/share/rgbd_slam_lecture/BundleAdjustment/src/common.h
+SnavelyReprojectionError.h
+/share/rgbd_slam_lecture/BundleAdjustment/src/SnavelyReprojectionError.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

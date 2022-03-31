@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/share/rgbd_slam_lecture/LeastSquares/gaussNewton.cpp" "/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles/gaussNewton.dir/gaussNewton.cpp.o"
+  "/share/rgbd_slam_lecture/LeastSquares/src/gaussNewton.cpp" "/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles/gaussNewton.dir/src/gaussNewton.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

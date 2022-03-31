@@ -57,38 +57,38 @@ include CMakeFiles/g2oCurveFitting.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/g2oCurveFitting.dir/flags.make
 
-CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o: CMakeFiles/g2oCurveFitting.dir/flags.make
-CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o: ../g2oCurveFitting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o -c /share/rgbd_slam_lecture/LeastSquares/g2oCurveFitting.cpp
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o: CMakeFiles/g2oCurveFitting.dir/flags.make
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o: ../src/g2oCurveFitting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o -c /share/rgbd_slam_lecture/LeastSquares/src/g2oCurveFitting.cpp
 
-CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LeastSquares/g2oCurveFitting.cpp > CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.i
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LeastSquares/src/g2oCurveFitting.cpp > CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.i
 
-CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LeastSquares/g2oCurveFitting.cpp -o CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.s
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LeastSquares/src/g2oCurveFitting.cpp -o CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.s
 
-CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o.requires:
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o.requires:
 
-.PHONY : CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o.requires
+.PHONY : CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o.requires
 
-CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o.provides: CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o.requires
-	$(MAKE) -f CMakeFiles/g2oCurveFitting.dir/build.make CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o.provides.build
-.PHONY : CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o.provides
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o.provides: CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o.requires
+	$(MAKE) -f CMakeFiles/g2oCurveFitting.dir/build.make CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o.provides.build
+.PHONY : CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o.provides
 
-CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o.provides.build: CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o
+CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o.provides.build: CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o
 
 
 # Object files for target g2oCurveFitting
 g2oCurveFitting_OBJECTS = \
-"CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o"
+"CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o"
 
 # External object files for target g2oCurveFitting
 g2oCurveFitting_EXTERNAL_OBJECTS =
 
-g2oCurveFitting: CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o
+g2oCurveFitting: CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o
 g2oCurveFitting: CMakeFiles/g2oCurveFitting.dir/build.make
 g2oCurveFitting: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.3.2.0
 g2oCurveFitting: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.3.2.0
@@ -142,7 +142,7 @@ CMakeFiles/g2oCurveFitting.dir/build: g2oCurveFitting
 
 .PHONY : CMakeFiles/g2oCurveFitting.dir/build
 
-CMakeFiles/g2oCurveFitting.dir/requires: CMakeFiles/g2oCurveFitting.dir/g2oCurveFitting.cpp.o.requires
+CMakeFiles/g2oCurveFitting.dir/requires: CMakeFiles/g2oCurveFitting.dir/src/g2oCurveFitting.cpp.o.requires
 
 .PHONY : CMakeFiles/g2oCurveFitting.dir/requires
 

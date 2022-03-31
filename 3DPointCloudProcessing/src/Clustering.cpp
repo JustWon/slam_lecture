@@ -10,9 +10,6 @@
 #include <pcl/segmentation/sac_segmentation.h>
 #include <pcl/segmentation/extract_clusters.h>
 
-// Euclidean Cluster Extraction
-// http://pointclouds.org/documentation/tutorials/cluster_extraction.php#cluster-extraction
-
 int 
 main (int argc, char** argv)
 {
@@ -20,8 +17,7 @@ main (int argc, char** argv)
   pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZRGB>);
   pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud_f (new pcl::PointCloud<pcl::PointXYZRGB>);
 
-  // *.PCD 파일 읽기 (https://raw.githubusercontent.com/adioshun/gitBook_Tutorial_PCL/master/Intermediate/sample/RANSAC_plane_true.pcd)
-  pcl::io::loadPCDFile<pcl::PointXYZRGB> ("RANSAC_plane_true.pcd", *cloud);
+  pcl::io::loadPCDFile<pcl::PointXYZRGB> (argv[1], *cloud);
 
   // 포인트수 출력
   std::cout << "PointCloud before filtering has: " << cloud->points.size () << " data points." << std::endl; //*

@@ -149,86 +149,86 @@ loop_closure/fast:
 	$(MAKE) -f CMakeFiles/loop_closure.dir/build.make CMakeFiles/loop_closure.dir/build
 .PHONY : loop_closure/fast
 
-feature_training.o: feature_training.cpp.o
+src/feature_training.o: src/feature_training.cpp.o
 
-.PHONY : feature_training.o
-
-# target to build an object file
-feature_training.cpp.o:
-	$(MAKE) -f CMakeFiles/feature_training.dir/build.make CMakeFiles/feature_training.dir/feature_training.cpp.o
-.PHONY : feature_training.cpp.o
-
-feature_training.i: feature_training.cpp.i
-
-.PHONY : feature_training.i
-
-# target to preprocess a source file
-feature_training.cpp.i:
-	$(MAKE) -f CMakeFiles/feature_training.dir/build.make CMakeFiles/feature_training.dir/feature_training.cpp.i
-.PHONY : feature_training.cpp.i
-
-feature_training.s: feature_training.cpp.s
-
-.PHONY : feature_training.s
-
-# target to generate assembly for a file
-feature_training.cpp.s:
-	$(MAKE) -f CMakeFiles/feature_training.dir/build.make CMakeFiles/feature_training.dir/feature_training.cpp.s
-.PHONY : feature_training.cpp.s
-
-gen_vocab_large.o: gen_vocab_large.cpp.o
-
-.PHONY : gen_vocab_large.o
+.PHONY : src/feature_training.o
 
 # target to build an object file
-gen_vocab_large.cpp.o:
-	$(MAKE) -f CMakeFiles/gen_vocab.dir/build.make CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o
-.PHONY : gen_vocab_large.cpp.o
+src/feature_training.cpp.o:
+	$(MAKE) -f CMakeFiles/feature_training.dir/build.make CMakeFiles/feature_training.dir/src/feature_training.cpp.o
+.PHONY : src/feature_training.cpp.o
 
-gen_vocab_large.i: gen_vocab_large.cpp.i
+src/feature_training.i: src/feature_training.cpp.i
 
-.PHONY : gen_vocab_large.i
+.PHONY : src/feature_training.i
 
 # target to preprocess a source file
-gen_vocab_large.cpp.i:
-	$(MAKE) -f CMakeFiles/gen_vocab.dir/build.make CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.i
-.PHONY : gen_vocab_large.cpp.i
+src/feature_training.cpp.i:
+	$(MAKE) -f CMakeFiles/feature_training.dir/build.make CMakeFiles/feature_training.dir/src/feature_training.cpp.i
+.PHONY : src/feature_training.cpp.i
 
-gen_vocab_large.s: gen_vocab_large.cpp.s
+src/feature_training.s: src/feature_training.cpp.s
 
-.PHONY : gen_vocab_large.s
+.PHONY : src/feature_training.s
 
 # target to generate assembly for a file
-gen_vocab_large.cpp.s:
-	$(MAKE) -f CMakeFiles/gen_vocab.dir/build.make CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.s
-.PHONY : gen_vocab_large.cpp.s
+src/feature_training.cpp.s:
+	$(MAKE) -f CMakeFiles/feature_training.dir/build.make CMakeFiles/feature_training.dir/src/feature_training.cpp.s
+.PHONY : src/feature_training.cpp.s
 
-loop_closure.o: loop_closure.cpp.o
+src/gen_vocab_large.o: src/gen_vocab_large.cpp.o
 
-.PHONY : loop_closure.o
+.PHONY : src/gen_vocab_large.o
 
 # target to build an object file
-loop_closure.cpp.o:
-	$(MAKE) -f CMakeFiles/loop_closure.dir/build.make CMakeFiles/loop_closure.dir/loop_closure.cpp.o
-.PHONY : loop_closure.cpp.o
+src/gen_vocab_large.cpp.o:
+	$(MAKE) -f CMakeFiles/gen_vocab.dir/build.make CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o
+.PHONY : src/gen_vocab_large.cpp.o
 
-loop_closure.i: loop_closure.cpp.i
+src/gen_vocab_large.i: src/gen_vocab_large.cpp.i
 
-.PHONY : loop_closure.i
+.PHONY : src/gen_vocab_large.i
 
 # target to preprocess a source file
-loop_closure.cpp.i:
-	$(MAKE) -f CMakeFiles/loop_closure.dir/build.make CMakeFiles/loop_closure.dir/loop_closure.cpp.i
-.PHONY : loop_closure.cpp.i
+src/gen_vocab_large.cpp.i:
+	$(MAKE) -f CMakeFiles/gen_vocab.dir/build.make CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.i
+.PHONY : src/gen_vocab_large.cpp.i
 
-loop_closure.s: loop_closure.cpp.s
+src/gen_vocab_large.s: src/gen_vocab_large.cpp.s
 
-.PHONY : loop_closure.s
+.PHONY : src/gen_vocab_large.s
 
 # target to generate assembly for a file
-loop_closure.cpp.s:
-	$(MAKE) -f CMakeFiles/loop_closure.dir/build.make CMakeFiles/loop_closure.dir/loop_closure.cpp.s
-.PHONY : loop_closure.cpp.s
+src/gen_vocab_large.cpp.s:
+	$(MAKE) -f CMakeFiles/gen_vocab.dir/build.make CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.s
+.PHONY : src/gen_vocab_large.cpp.s
+
+src/loop_closure.o: src/loop_closure.cpp.o
+
+.PHONY : src/loop_closure.o
+
+# target to build an object file
+src/loop_closure.cpp.o:
+	$(MAKE) -f CMakeFiles/loop_closure.dir/build.make CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o
+.PHONY : src/loop_closure.cpp.o
+
+src/loop_closure.i: src/loop_closure.cpp.i
+
+.PHONY : src/loop_closure.i
+
+# target to preprocess a source file
+src/loop_closure.cpp.i:
+	$(MAKE) -f CMakeFiles/loop_closure.dir/build.make CMakeFiles/loop_closure.dir/src/loop_closure.cpp.i
+.PHONY : src/loop_closure.cpp.i
+
+src/loop_closure.s: src/loop_closure.cpp.s
+
+.PHONY : src/loop_closure.s
+
+# target to generate assembly for a file
+src/loop_closure.cpp.s:
+	$(MAKE) -f CMakeFiles/loop_closure.dir/build.make CMakeFiles/loop_closure.dir/src/loop_closure.cpp.s
+.PHONY : src/loop_closure.cpp.s
 
 # Help Target
 help:
@@ -241,15 +241,15 @@ help:
 	@echo "... gen_vocab"
 	@echo "... feature_training"
 	@echo "... loop_closure"
-	@echo "... feature_training.o"
-	@echo "... feature_training.i"
-	@echo "... feature_training.s"
-	@echo "... gen_vocab_large.o"
-	@echo "... gen_vocab_large.i"
-	@echo "... gen_vocab_large.s"
-	@echo "... loop_closure.o"
-	@echo "... loop_closure.i"
-	@echo "... loop_closure.s"
+	@echo "... src/feature_training.o"
+	@echo "... src/feature_training.i"
+	@echo "... src/feature_training.s"
+	@echo "... src/gen_vocab_large.o"
+	@echo "... src/gen_vocab_large.i"
+	@echo "... src/gen_vocab_large.s"
+	@echo "... src/loop_closure.o"
+	@echo "... src/loop_closure.i"
+	@echo "... src/loop_closure.s"
 .PHONY : help
 
 

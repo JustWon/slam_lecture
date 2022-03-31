@@ -3,16 +3,13 @@
 #include <pcl/point_types.h>
 #include <pcl/filters/voxel_grid.h>
 
-//Downsampling a PointCloud using a VoxelGrid filter
-//http://pointclouds.org/documentation/tutorials/voxel_grid.php#voxelgrid
 
 int main (int argc, char** argv)
 {
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered (new pcl::PointCloud<pcl::PointXYZ>);
 
-  // *.PCD 파일 읽기 (https://raw.github.com/PointCloudLibrary/data/master/tutorials/table_scene_lms400.pcd)
-  pcl::io::loadPCDFile<pcl::PointXYZ> ("table_scene_lms400.pcd", *cloud);
+  pcl::io::loadPCDFile<pcl::PointXYZ> (argv[1], *cloud);
 
  // 포인트수 출력
   std::cout << "Input : " << cloud->points.size () << " (" << pcl::getFieldsList (*cloud) <<")"<< std::endl;

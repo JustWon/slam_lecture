@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/share/rgbd_slam_lecture/Keypoint&Descriptor/orb_cv.cpp
+/share/rgbd_slam_lecture/Keypoint&Descriptor/src/orb_cv.cpp
 iostream
 -
 opencv2/core/core.hpp

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/share/rgbd_slam_lecture/LeastSquares/g2oCurveFitting.cpp
+/share/rgbd_slam_lecture/LeastSquares/src/g2oCurveFitting.cpp
 iostream
 -
 g2o/core/g2o_core_api.h

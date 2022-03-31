@@ -18,5 +18,5 @@ include_directories(
 )
 
 # # add_executable( triangulation triangulation.cpp extra.cpp) # use this if in opencv2
-add_executable(triangulation triangulation.cpp)
+add_executable(triangulation src/triangulation.cpp)
 target_link_libraries(triangulation ${OpenCV_LIBS})

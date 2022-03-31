@@ -3,9 +3,6 @@
 #include <pcl/features/normal_3d.h>
 #include <pcl/visualization/pcl_visualizer.h>
 
-// How 3D Features work in PCL
-// http://pointclouds.org/documentation/tutorials/how_features_work.php
-
 int
 main (int argc, char** argv)
 {
@@ -13,8 +10,7 @@ main (int argc, char** argv)
   pcl::PointCloud<pcl::Normal>::Ptr cloud_normals (new pcl::PointCloud<pcl::Normal>); // 계산된 Normal을 저장할 오브젝트 
   pcl::PointCloud<pcl::PointNormal> p_n_cloud_c;
 
-  // *.PCD 파일 읽기 (https://raw.githubusercontent.com/adioshun/gitBook_Tutorial_PCL/master/Beginner/sample/tabletop.pcd)
-  pcl::io::loadPCDFile<pcl::PointXYZ> ("tabletop.pcd", *cloud);
+  pcl::io::loadPCDFile<pcl::PointXYZ> (argv[1], *cloud);
   std::cout << "INPUT " << cloud->points.size ()  << std::endl;
   // Create the normal estimation class, and pass the input dataset to it
   pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal> ne;

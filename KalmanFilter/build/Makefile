@@ -123,59 +123,59 @@ kalman-test/fast:
 	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/build
 .PHONY : kalman-test/fast
 
-kalman-test.o: kalman-test.cpp.o
+src/kalman-test.o: src/kalman-test.cpp.o
 
-.PHONY : kalman-test.o
-
-# target to build an object file
-kalman-test.cpp.o:
-	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/kalman-test.cpp.o
-.PHONY : kalman-test.cpp.o
-
-kalman-test.i: kalman-test.cpp.i
-
-.PHONY : kalman-test.i
-
-# target to preprocess a source file
-kalman-test.cpp.i:
-	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/kalman-test.cpp.i
-.PHONY : kalman-test.cpp.i
-
-kalman-test.s: kalman-test.cpp.s
-
-.PHONY : kalman-test.s
-
-# target to generate assembly for a file
-kalman-test.cpp.s:
-	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/kalman-test.cpp.s
-.PHONY : kalman-test.cpp.s
-
-kalman.o: kalman.cpp.o
-
-.PHONY : kalman.o
+.PHONY : src/kalman-test.o
 
 # target to build an object file
-kalman.cpp.o:
-	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/kalman.cpp.o
-.PHONY : kalman.cpp.o
+src/kalman-test.cpp.o:
+	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o
+.PHONY : src/kalman-test.cpp.o
 
-kalman.i: kalman.cpp.i
+src/kalman-test.i: src/kalman-test.cpp.i
 
-.PHONY : kalman.i
+.PHONY : src/kalman-test.i
 
 # target to preprocess a source file
-kalman.cpp.i:
-	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/kalman.cpp.i
-.PHONY : kalman.cpp.i
+src/kalman-test.cpp.i:
+	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/src/kalman-test.cpp.i
+.PHONY : src/kalman-test.cpp.i
 
-kalman.s: kalman.cpp.s
+src/kalman-test.s: src/kalman-test.cpp.s
 
-.PHONY : kalman.s
+.PHONY : src/kalman-test.s
 
 # target to generate assembly for a file
-kalman.cpp.s:
-	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/kalman.cpp.s
-.PHONY : kalman.cpp.s
+src/kalman-test.cpp.s:
+	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/src/kalman-test.cpp.s
+.PHONY : src/kalman-test.cpp.s
+
+src/kalman.o: src/kalman.cpp.o
+
+.PHONY : src/kalman.o
+
+# target to build an object file
+src/kalman.cpp.o:
+	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/src/kalman.cpp.o
+.PHONY : src/kalman.cpp.o
+
+src/kalman.i: src/kalman.cpp.i
+
+.PHONY : src/kalman.i
+
+# target to preprocess a source file
+src/kalman.cpp.i:
+	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/src/kalman.cpp.i
+.PHONY : src/kalman.cpp.i
+
+src/kalman.s: src/kalman.cpp.s
+
+.PHONY : src/kalman.s
+
+# target to generate assembly for a file
+src/kalman.cpp.s:
+	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/src/kalman.cpp.s
+.PHONY : src/kalman.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... kalman-test"
 	@echo "... edit_cache"
-	@echo "... kalman-test.o"
-	@echo "... kalman-test.i"
-	@echo "... kalman-test.s"
-	@echo "... kalman.o"
-	@echo "... kalman.i"
-	@echo "... kalman.s"
+	@echo "... src/kalman-test.o"
+	@echo "... src/kalman-test.i"
+	@echo "... src/kalman-test.s"
+	@echo "... src/kalman.o"
+	@echo "... src/kalman.i"
+	@echo "... src/kalman.s"
 .PHONY : help
 
 

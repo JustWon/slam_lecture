@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/share/rgbd_slam_lecture/Triangulation/triangulation.cpp" "/share/rgbd_slam_lecture/Triangulation/build/CMakeFiles/triangulation.dir/triangulation.cpp.o"
+  "/share/rgbd_slam_lecture/Triangulation/src/triangulation.cpp" "/share/rgbd_slam_lecture/Triangulation/build/CMakeFiles/triangulation.dir/src/triangulation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

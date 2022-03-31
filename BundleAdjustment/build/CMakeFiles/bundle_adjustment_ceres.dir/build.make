@@ -57,38 +57,38 @@ include CMakeFiles/bundle_adjustment_ceres.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/bundle_adjustment_ceres.dir/flags.make
 
-CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o: CMakeFiles/bundle_adjustment_ceres.dir/flags.make
-CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o: ../bundle_adjustment_ceres.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o -c /share/rgbd_slam_lecture/BundleAdjustment/bundle_adjustment_ceres.cpp
+CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o: CMakeFiles/bundle_adjustment_ceres.dir/flags.make
+CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o: ../src/bundle_adjustment_ceres.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o -c /share/rgbd_slam_lecture/BundleAdjustment/src/bundle_adjustment_ceres.cpp
 
-CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/BundleAdjustment/bundle_adjustment_ceres.cpp > CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.i
+CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/BundleAdjustment/src/bundle_adjustment_ceres.cpp > CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.i
 
-CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/BundleAdjustment/bundle_adjustment_ceres.cpp -o CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.s
+CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/BundleAdjustment/src/bundle_adjustment_ceres.cpp -o CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.s
 
-CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o.requires:
+CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o.requires:
 
-.PHONY : CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o.requires
+.PHONY : CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o.requires
 
-CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o.provides: CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o.requires
-	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o.provides.build
-.PHONY : CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o.provides
+CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o.provides: CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o.provides.build
+.PHONY : CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o.provides
 
-CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o.provides.build: CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o
+CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o.provides.build: CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o
 
 
 # Object files for target bundle_adjustment_ceres
 bundle_adjustment_ceres_OBJECTS = \
-"CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o"
+"CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o"
 
 # External object files for target bundle_adjustment_ceres
 bundle_adjustment_ceres_EXTERNAL_OBJECTS =
 
-bundle_adjustment_ceres: CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o
+bundle_adjustment_ceres: CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o
 bundle_adjustment_ceres: CMakeFiles/bundle_adjustment_ceres.dir/build.make
 bundle_adjustment_ceres: /usr/local/lib/libceres.a
 bundle_adjustment_ceres: libbal_common.a
@@ -120,7 +120,7 @@ CMakeFiles/bundle_adjustment_ceres.dir/build: bundle_adjustment_ceres
 
 .PHONY : CMakeFiles/bundle_adjustment_ceres.dir/build
 
-CMakeFiles/bundle_adjustment_ceres.dir/requires: CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o.requires
+CMakeFiles/bundle_adjustment_ceres.dir/requires: CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o.requires
 
 .PHONY : CMakeFiles/bundle_adjustment_ceres.dir/requires
 

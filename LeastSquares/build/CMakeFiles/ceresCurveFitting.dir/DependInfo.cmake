@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/share/rgbd_slam_lecture/LeastSquares/ceresCurveFitting.cpp" "/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles/ceresCurveFitting.dir/ceresCurveFitting.cpp.o"
+  "/share/rgbd_slam_lecture/LeastSquares/src/ceresCurveFitting.cpp" "/share/rgbd_slam_lecture/LeastSquares/build/CMakeFiles/ceresCurveFitting.dir/src/ceresCurveFitting.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

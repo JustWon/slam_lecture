@@ -57,38 +57,38 @@ include CMakeFiles/bal_common.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/bal_common.dir/flags.make
 
-CMakeFiles/bal_common.dir/common.cpp.o: CMakeFiles/bal_common.dir/flags.make
-CMakeFiles/bal_common.dir/common.cpp.o: ../common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bal_common.dir/common.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bal_common.dir/common.cpp.o -c /share/rgbd_slam_lecture/BundleAdjustment/common.cpp
+CMakeFiles/bal_common.dir/src/common.cpp.o: CMakeFiles/bal_common.dir/flags.make
+CMakeFiles/bal_common.dir/src/common.cpp.o: ../src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bal_common.dir/src/common.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bal_common.dir/src/common.cpp.o -c /share/rgbd_slam_lecture/BundleAdjustment/src/common.cpp
 
-CMakeFiles/bal_common.dir/common.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bal_common.dir/common.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/BundleAdjustment/common.cpp > CMakeFiles/bal_common.dir/common.cpp.i
+CMakeFiles/bal_common.dir/src/common.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bal_common.dir/src/common.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/BundleAdjustment/src/common.cpp > CMakeFiles/bal_common.dir/src/common.cpp.i
 
-CMakeFiles/bal_common.dir/common.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bal_common.dir/common.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/BundleAdjustment/common.cpp -o CMakeFiles/bal_common.dir/common.cpp.s
+CMakeFiles/bal_common.dir/src/common.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bal_common.dir/src/common.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/BundleAdjustment/src/common.cpp -o CMakeFiles/bal_common.dir/src/common.cpp.s
 
-CMakeFiles/bal_common.dir/common.cpp.o.requires:
+CMakeFiles/bal_common.dir/src/common.cpp.o.requires:
 
-.PHONY : CMakeFiles/bal_common.dir/common.cpp.o.requires
+.PHONY : CMakeFiles/bal_common.dir/src/common.cpp.o.requires
 
-CMakeFiles/bal_common.dir/common.cpp.o.provides: CMakeFiles/bal_common.dir/common.cpp.o.requires
-	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/common.cpp.o.provides.build
-.PHONY : CMakeFiles/bal_common.dir/common.cpp.o.provides
+CMakeFiles/bal_common.dir/src/common.cpp.o.provides: CMakeFiles/bal_common.dir/src/common.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/src/common.cpp.o.provides.build
+.PHONY : CMakeFiles/bal_common.dir/src/common.cpp.o.provides
 
-CMakeFiles/bal_common.dir/common.cpp.o.provides.build: CMakeFiles/bal_common.dir/common.cpp.o
+CMakeFiles/bal_common.dir/src/common.cpp.o.provides.build: CMakeFiles/bal_common.dir/src/common.cpp.o
 
 
 # Object files for target bal_common
 bal_common_OBJECTS = \
-"CMakeFiles/bal_common.dir/common.cpp.o"
+"CMakeFiles/bal_common.dir/src/common.cpp.o"
 
 # External object files for target bal_common
 bal_common_EXTERNAL_OBJECTS =
 
-libbal_common.a: CMakeFiles/bal_common.dir/common.cpp.o
+libbal_common.a: CMakeFiles/bal_common.dir/src/common.cpp.o
 libbal_common.a: CMakeFiles/bal_common.dir/build.make
 libbal_common.a: CMakeFiles/bal_common.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libbal_common.a"
@@ -100,7 +100,7 @@ CMakeFiles/bal_common.dir/build: libbal_common.a
 
 .PHONY : CMakeFiles/bal_common.dir/build
 
-CMakeFiles/bal_common.dir/requires: CMakeFiles/bal_common.dir/common.cpp.o.requires
+CMakeFiles/bal_common.dir/requires: CMakeFiles/bal_common.dir/src/common.cpp.o.requires
 
 .PHONY : CMakeFiles/bal_common.dir/requires
 

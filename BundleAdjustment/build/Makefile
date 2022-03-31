@@ -136,59 +136,59 @@ bundle_adjustment_ceres/fast:
 	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/build
 .PHONY : bundle_adjustment_ceres/fast
 
-bundle_adjustment_ceres.o: bundle_adjustment_ceres.cpp.o
+src/bundle_adjustment_ceres.o: src/bundle_adjustment_ceres.cpp.o
 
-.PHONY : bundle_adjustment_ceres.o
-
-# target to build an object file
-bundle_adjustment_ceres.cpp.o:
-	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o
-.PHONY : bundle_adjustment_ceres.cpp.o
-
-bundle_adjustment_ceres.i: bundle_adjustment_ceres.cpp.i
-
-.PHONY : bundle_adjustment_ceres.i
-
-# target to preprocess a source file
-bundle_adjustment_ceres.cpp.i:
-	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.i
-.PHONY : bundle_adjustment_ceres.cpp.i
-
-bundle_adjustment_ceres.s: bundle_adjustment_ceres.cpp.s
-
-.PHONY : bundle_adjustment_ceres.s
-
-# target to generate assembly for a file
-bundle_adjustment_ceres.cpp.s:
-	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.s
-.PHONY : bundle_adjustment_ceres.cpp.s
-
-common.o: common.cpp.o
-
-.PHONY : common.o
+.PHONY : src/bundle_adjustment_ceres.o
 
 # target to build an object file
-common.cpp.o:
-	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/common.cpp.o
-.PHONY : common.cpp.o
+src/bundle_adjustment_ceres.cpp.o:
+	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o
+.PHONY : src/bundle_adjustment_ceres.cpp.o
 
-common.i: common.cpp.i
+src/bundle_adjustment_ceres.i: src/bundle_adjustment_ceres.cpp.i
 
-.PHONY : common.i
+.PHONY : src/bundle_adjustment_ceres.i
 
 # target to preprocess a source file
-common.cpp.i:
-	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/common.cpp.i
-.PHONY : common.cpp.i
+src/bundle_adjustment_ceres.cpp.i:
+	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.i
+.PHONY : src/bundle_adjustment_ceres.cpp.i
 
-common.s: common.cpp.s
+src/bundle_adjustment_ceres.s: src/bundle_adjustment_ceres.cpp.s
 
-.PHONY : common.s
+.PHONY : src/bundle_adjustment_ceres.s
 
 # target to generate assembly for a file
-common.cpp.s:
-	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/common.cpp.s
-.PHONY : common.cpp.s
+src/bundle_adjustment_ceres.cpp.s:
+	$(MAKE) -f CMakeFiles/bundle_adjustment_ceres.dir/build.make CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.s
+.PHONY : src/bundle_adjustment_ceres.cpp.s
+
+src/common.o: src/common.cpp.o
+
+.PHONY : src/common.o
+
+# target to build an object file
+src/common.cpp.o:
+	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/src/common.cpp.o
+.PHONY : src/common.cpp.o
+
+src/common.i: src/common.cpp.i
+
+.PHONY : src/common.i
+
+# target to preprocess a source file
+src/common.cpp.i:
+	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/src/common.cpp.i
+.PHONY : src/common.cpp.i
+
+src/common.s: src/common.cpp.s
+
+.PHONY : src/common.s
+
+# target to generate assembly for a file
+src/common.cpp.s:
+	$(MAKE) -f CMakeFiles/bal_common.dir/build.make CMakeFiles/bal_common.dir/src/common.cpp.s
+.PHONY : src/common.cpp.s
 
 # Help Target
 help:
@@ -200,12 +200,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bal_common"
 	@echo "... bundle_adjustment_ceres"
-	@echo "... bundle_adjustment_ceres.o"
-	@echo "... bundle_adjustment_ceres.i"
-	@echo "... bundle_adjustment_ceres.s"
-	@echo "... common.o"
-	@echo "... common.i"
-	@echo "... common.s"
+	@echo "... src/bundle_adjustment_ceres.o"
+	@echo "... src/bundle_adjustment_ceres.i"
+	@echo "... src/bundle_adjustment_ceres.s"
+	@echo "... src/common.o"
+	@echo "... src/common.i"
+	@echo "... src/common.s"
 .PHONY : help
 
 

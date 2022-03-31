@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/share/rgbd_slam_lecture/BundleAdjustment/bundle_adjustment_ceres.cpp" "/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o"
+  "/share/rgbd_slam_lecture/BundleAdjustment/src/bundle_adjustment_ceres.cpp" "/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,6 +13,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
   "/usr/include/eigen3"
   "/usr/include/suitesparse"
+  "../include"
   "/usr/local/include"
   )
 

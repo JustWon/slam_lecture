@@ -57,38 +57,38 @@ include CMakeFiles/gen_vocab.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/gen_vocab.dir/flags.make
 
-CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o: CMakeFiles/gen_vocab.dir/flags.make
-CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o: ../gen_vocab_large.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o -c /share/rgbd_slam_lecture/LoopClosureDetection/gen_vocab_large.cpp
+CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o: CMakeFiles/gen_vocab.dir/flags.make
+CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o: ../src/gen_vocab_large.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o -c /share/rgbd_slam_lecture/LoopClosureDetection/src/gen_vocab_large.cpp
 
-CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LoopClosureDetection/gen_vocab_large.cpp > CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.i
+CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/LoopClosureDetection/src/gen_vocab_large.cpp > CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.i
 
-CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LoopClosureDetection/gen_vocab_large.cpp -o CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.s
+CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/LoopClosureDetection/src/gen_vocab_large.cpp -o CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.s
 
-CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o.requires:
+CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o.requires:
 
-.PHONY : CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o.requires
+.PHONY : CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o.requires
 
-CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o.provides: CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o.requires
-	$(MAKE) -f CMakeFiles/gen_vocab.dir/build.make CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o.provides.build
-.PHONY : CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o.provides
+CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o.provides: CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o.requires
+	$(MAKE) -f CMakeFiles/gen_vocab.dir/build.make CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o.provides.build
+.PHONY : CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o.provides
 
-CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o.provides.build: CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o
+CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o.provides.build: CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o
 
 
 # Object files for target gen_vocab
 gen_vocab_OBJECTS = \
-"CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o"
+"CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o"
 
 # External object files for target gen_vocab
 gen_vocab_EXTERNAL_OBJECTS =
 
-gen_vocab: CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o
+gen_vocab: CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o
 gen_vocab: CMakeFiles/gen_vocab.dir/build.make
 gen_vocab: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.3.2.0
 gen_vocab: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.3.2.0
@@ -141,7 +141,7 @@ CMakeFiles/gen_vocab.dir/build: gen_vocab
 
 .PHONY : CMakeFiles/gen_vocab.dir/build
 
-CMakeFiles/gen_vocab.dir/requires: CMakeFiles/gen_vocab.dir/gen_vocab_large.cpp.o.requires
+CMakeFiles/gen_vocab.dir/requires: CMakeFiles/gen_vocab.dir/src/gen_vocab_large.cpp.o.requires
 
 .PHONY : CMakeFiles/gen_vocab.dir/requires
 

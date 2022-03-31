@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bundle_adjustment_ceres.dir/bundle_adjustment_ceres.cpp.o"
+  "CMakeFiles/bundle_adjustment_ceres.dir/src/bundle_adjustment_ceres.cpp.o"
   "bundle_adjustment_ceres.pdb"
   "bundle_adjustment_ceres"
 )

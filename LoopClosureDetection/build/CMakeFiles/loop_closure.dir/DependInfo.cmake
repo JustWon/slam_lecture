@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/share/rgbd_slam_lecture/LoopClosureDetection/loop_closure.cpp" "/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/loop_closure.dir/loop_closure.cpp.o"
+  "/share/rgbd_slam_lecture/LoopClosureDetection/src/loop_closure.cpp" "/share/rgbd_slam_lecture/LoopClosureDetection/build/CMakeFiles/loop_closure.dir/src/loop_closure.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

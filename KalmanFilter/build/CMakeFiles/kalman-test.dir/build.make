@@ -57,64 +57,64 @@ include CMakeFiles/kalman-test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/kalman-test.dir/flags.make
 
-CMakeFiles/kalman-test.dir/kalman.cpp.o: CMakeFiles/kalman-test.dir/flags.make
-CMakeFiles/kalman-test.dir/kalman.cpp.o: ../kalman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kalman-test.dir/kalman.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kalman-test.dir/kalman.cpp.o -c /share/rgbd_slam_lecture/KalmanFilter/kalman.cpp
+CMakeFiles/kalman-test.dir/src/kalman.cpp.o: CMakeFiles/kalman-test.dir/flags.make
+CMakeFiles/kalman-test.dir/src/kalman.cpp.o: ../src/kalman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kalman-test.dir/src/kalman.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kalman-test.dir/src/kalman.cpp.o -c /share/rgbd_slam_lecture/KalmanFilter/src/kalman.cpp
 
-CMakeFiles/kalman-test.dir/kalman.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kalman-test.dir/kalman.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/KalmanFilter/kalman.cpp > CMakeFiles/kalman-test.dir/kalman.cpp.i
+CMakeFiles/kalman-test.dir/src/kalman.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kalman-test.dir/src/kalman.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/KalmanFilter/src/kalman.cpp > CMakeFiles/kalman-test.dir/src/kalman.cpp.i
 
-CMakeFiles/kalman-test.dir/kalman.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kalman-test.dir/kalman.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/KalmanFilter/kalman.cpp -o CMakeFiles/kalman-test.dir/kalman.cpp.s
+CMakeFiles/kalman-test.dir/src/kalman.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kalman-test.dir/src/kalman.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/KalmanFilter/src/kalman.cpp -o CMakeFiles/kalman-test.dir/src/kalman.cpp.s
 
-CMakeFiles/kalman-test.dir/kalman.cpp.o.requires:
+CMakeFiles/kalman-test.dir/src/kalman.cpp.o.requires:
 
-.PHONY : CMakeFiles/kalman-test.dir/kalman.cpp.o.requires
+.PHONY : CMakeFiles/kalman-test.dir/src/kalman.cpp.o.requires
 
-CMakeFiles/kalman-test.dir/kalman.cpp.o.provides: CMakeFiles/kalman-test.dir/kalman.cpp.o.requires
-	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/kalman.cpp.o.provides.build
-.PHONY : CMakeFiles/kalman-test.dir/kalman.cpp.o.provides
+CMakeFiles/kalman-test.dir/src/kalman.cpp.o.provides: CMakeFiles/kalman-test.dir/src/kalman.cpp.o.requires
+	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/src/kalman.cpp.o.provides.build
+.PHONY : CMakeFiles/kalman-test.dir/src/kalman.cpp.o.provides
 
-CMakeFiles/kalman-test.dir/kalman.cpp.o.provides.build: CMakeFiles/kalman-test.dir/kalman.cpp.o
+CMakeFiles/kalman-test.dir/src/kalman.cpp.o.provides.build: CMakeFiles/kalman-test.dir/src/kalman.cpp.o
 
 
-CMakeFiles/kalman-test.dir/kalman-test.cpp.o: CMakeFiles/kalman-test.dir/flags.make
-CMakeFiles/kalman-test.dir/kalman-test.cpp.o: ../kalman-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kalman-test.dir/kalman-test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kalman-test.dir/kalman-test.cpp.o -c /share/rgbd_slam_lecture/KalmanFilter/kalman-test.cpp
+CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o: CMakeFiles/kalman-test.dir/flags.make
+CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o: ../src/kalman-test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/share/rgbd_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o -c /share/rgbd_slam_lecture/KalmanFilter/src/kalman-test.cpp
 
-CMakeFiles/kalman-test.dir/kalman-test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kalman-test.dir/kalman-test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/KalmanFilter/kalman-test.cpp > CMakeFiles/kalman-test.dir/kalman-test.cpp.i
+CMakeFiles/kalman-test.dir/src/kalman-test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kalman-test.dir/src/kalman-test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /share/rgbd_slam_lecture/KalmanFilter/src/kalman-test.cpp > CMakeFiles/kalman-test.dir/src/kalman-test.cpp.i
 
-CMakeFiles/kalman-test.dir/kalman-test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kalman-test.dir/kalman-test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/KalmanFilter/kalman-test.cpp -o CMakeFiles/kalman-test.dir/kalman-test.cpp.s
+CMakeFiles/kalman-test.dir/src/kalman-test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kalman-test.dir/src/kalman-test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /share/rgbd_slam_lecture/KalmanFilter/src/kalman-test.cpp -o CMakeFiles/kalman-test.dir/src/kalman-test.cpp.s
 
-CMakeFiles/kalman-test.dir/kalman-test.cpp.o.requires:
+CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o.requires:
 
-.PHONY : CMakeFiles/kalman-test.dir/kalman-test.cpp.o.requires
+.PHONY : CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o.requires
 
-CMakeFiles/kalman-test.dir/kalman-test.cpp.o.provides: CMakeFiles/kalman-test.dir/kalman-test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/kalman-test.cpp.o.provides.build
-.PHONY : CMakeFiles/kalman-test.dir/kalman-test.cpp.o.provides
+CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o.provides: CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o.requires
+	$(MAKE) -f CMakeFiles/kalman-test.dir/build.make CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o.provides.build
+.PHONY : CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o.provides
 
-CMakeFiles/kalman-test.dir/kalman-test.cpp.o.provides.build: CMakeFiles/kalman-test.dir/kalman-test.cpp.o
+CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o.provides.build: CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o
 
 
 # Object files for target kalman-test
 kalman__test_OBJECTS = \
-"CMakeFiles/kalman-test.dir/kalman.cpp.o" \
-"CMakeFiles/kalman-test.dir/kalman-test.cpp.o"
+"CMakeFiles/kalman-test.dir/src/kalman.cpp.o" \
+"CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o"
 
 # External object files for target kalman-test
 kalman__test_EXTERNAL_OBJECTS =
 
-kalman-test: CMakeFiles/kalman-test.dir/kalman.cpp.o
-kalman-test: CMakeFiles/kalman-test.dir/kalman-test.cpp.o
+kalman-test: CMakeFiles/kalman-test.dir/src/kalman.cpp.o
+kalman-test: CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o
 kalman-test: CMakeFiles/kalman-test.dir/build.make
 kalman-test: CMakeFiles/kalman-test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/share/rgbd_slam_lecture/KalmanFilter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable kalman-test"
@@ -125,8 +125,8 @@ CMakeFiles/kalman-test.dir/build: kalman-test
 
 .PHONY : CMakeFiles/kalman-test.dir/build
 
-CMakeFiles/kalman-test.dir/requires: CMakeFiles/kalman-test.dir/kalman.cpp.o.requires
-CMakeFiles/kalman-test.dir/requires: CMakeFiles/kalman-test.dir/kalman-test.cpp.o.requires
+CMakeFiles/kalman-test.dir/requires: CMakeFiles/kalman-test.dir/src/kalman.cpp.o.requires
+CMakeFiles/kalman-test.dir/requires: CMakeFiles/kalman-test.dir/src/kalman-test.cpp.o.requires
 
 .PHONY : CMakeFiles/kalman-test.dir/requires
 

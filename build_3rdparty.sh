@@ -20,6 +20,7 @@ sudo apt install libopencv-dev -y
 sudo apt install libeigen3-dev -y
 sudo apt install libgoogle-glog-dev -y 
 sudo apt install libsuitesparse-dev -y
+sudo apt install libpcl-dev -y
 
 # build 3rdparties
 cd "$ROOT_DIR/3rdparty/googletest"
@@ -30,7 +31,7 @@ install_function
 
 cd "$ROOT_DIR/3rdparty/g2o"
 install_function
-
+ 
 cd "$ROOT_DIR/3rdparty/Sophus"
 install_function
 

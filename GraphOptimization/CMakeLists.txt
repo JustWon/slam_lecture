@@ -17,7 +17,7 @@ include_directories(${Sophus_INCLUDE_DIRS})
 find_package(G2O REQUIRED)
 include_directories(${G2O_INCLUDE_DIRS})
 
-add_executable(pose_graph_g2o_SE3 pose_graph_g2o_SE3.cpp)
+add_executable(pose_graph_g2o_SE3 src/pose_graph_g2o_SE3.cpp)
 target_link_libraries(pose_graph_g2o_SE3
         g2o_core g2o_stuff g2o_types_slam3d ${CHOLMOD_LIBRARIES}
         )
