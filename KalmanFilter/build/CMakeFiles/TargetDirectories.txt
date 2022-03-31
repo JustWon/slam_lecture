@@ -1,3 +1,0 @@
-/share/rgbd_slam_lecture/KalmanFilter/build/CMakeFiles/rebuild_cache.dir
-/share/rgbd_slam_lecture/KalmanFilter/build/CMakeFiles/kalman-test.dir
-/share/rgbd_slam_lecture/KalmanFilter/build/CMakeFiles/edit_cache.dir

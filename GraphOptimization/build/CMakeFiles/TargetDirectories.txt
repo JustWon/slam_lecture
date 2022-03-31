@@ -1,3 +1,0 @@
-/share/rgbd_slam_lecture/GraphOptimization/build/CMakeFiles/rebuild_cache.dir
-/share/rgbd_slam_lecture/GraphOptimization/build/CMakeFiles/pose_graph_g2o_SE3.dir
-/share/rgbd_slam_lecture/GraphOptimization/build/CMakeFiles/edit_cache.dir

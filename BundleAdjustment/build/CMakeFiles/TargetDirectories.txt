@@ -1,4 +1,0 @@
-/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/edit_cache.dir
-/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/rebuild_cache.dir
-/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/bal_common.dir
-/share/rgbd_slam_lecture/BundleAdjustment/build/CMakeFiles/bundle_adjustment_ceres.dir

@@ -1,3 +1,0 @@
-/share/rgbd_slam_lecture/3DPointCameraProjection/build/CMakeFiles/rebuild_cache.dir
-/share/rgbd_slam_lecture/3DPointCameraProjection/build/CMakeFiles/lidar_camera.dir
-/share/rgbd_slam_lecture/3DPointCameraProjection/build/CMakeFiles/edit_cache.dir

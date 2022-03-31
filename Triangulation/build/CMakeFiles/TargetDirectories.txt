@@ -1,3 +1,0 @@
-/share/rgbd_slam_lecture/Triangulation/build/CMakeFiles/rebuild_cache.dir
-/share/rgbd_slam_lecture/Triangulation/build/CMakeFiles/triangulation.dir
-/share/rgbd_slam_lecture/Triangulation/build/CMakeFiles/edit_cache.dir
