@@ -1,5 +1,6 @@
 # How to use
 
 ```
-./pose_estimation_3d3d ../1.png ../2.png ../1_depth.png ../2_depth.png
+./pose_estimation_3d3d ../data/1.png ../data/2.png ../data/1_depth.png ../data/2_depth.png
+./iterative_closest_points ../data/room_scan1.pcd ../data/room_scan2.pcd
 ```

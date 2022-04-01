@@ -37,8 +37,6 @@ void lidarOnImage(const cv::Mat &img, const std::vector<LidarPoint> &lidarPoints
 	cv::Mat P_rect_00(3, 4, cv::DataType<double>::type);
 	cv::Mat RT(4, 4, cv::DataType<double>::type);
 
-
-
 	loadCalibrationData(P_rect_00, RT);
 
 	// project lidar points
@@ -50,12 +48,10 @@ void lidarOnImage(const cv::Mat &img, const std::vector<LidarPoint> &lidarPoints
 
 	for(auto it=lidarPoints.begin(); it!=lidarPoints.end(); ++it)
 	{
-
 		float maxX = 25.0, maxY = 6.0, minZ = -1.4;
 
 		if(it->x > maxX || it->x < 0.0 || abs(it->y) > maxY || it->z < minZ || it->r < 0.01)
 		{
-
 			continue;
 		}
 
@@ -74,9 +70,6 @@ void lidarOnImage(const cv::Mat &img, const std::vector<LidarPoint> &lidarPoints
 		int red = min(255, (int)(255 * abs((val - maxVal) / maxVal)));
 		int green = min(255, (int)(255 * (1 - abs((val - maxVal) / maxVal ))));
 		cv::circle(overlay, pt, 5, cv::Scalar(0, green, red), -1);
-
-
-
 	}
 
 	float opacity = 0.6;

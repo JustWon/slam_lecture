@@ -6,20 +6,23 @@ build_function ()
     mkdir build
     cd build
     cmake ../
-    make
+    make -j1
 }
 
 ROOT_DIR=$PWD
 echo $ROOT_DIR
 
-# build visual slam examples
+# build rgbd slam examples
 cd "$ROOT_DIR/3DPointCameraProjection"
 build_function
 
-cd "$ROOT_DIR/BundleAdjustment"
+cd "$ROOT_DIR/3DPointCloudProcessing"
 build_function
 
-cd "$ROOT_DIR/Fundamental&EssentialMatrix"
+cd "$ROOT_DIR/3DPointCloudRegistration"
+build_function
+
+cd "$ROOT_DIR/BundleAdjustment"
 build_function
 
 cd "$ROOT_DIR/GraphOptimization"
@@ -37,7 +40,7 @@ build_function
 cd "$ROOT_DIR/LoopClosureDetection"
 build_function
 
-cd "$ROOT_DIR/PerspectiveNPoints"
+cd "$ROOT_DIR/Perspective3Points"
 build_function
 
 cd "$ROOT_DIR/Triangulation"
