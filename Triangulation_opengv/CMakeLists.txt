@@ -13,14 +13,14 @@ include_directories(
         "./include"
 )
 
-add_library( random_generators src/random_generators.cpp 
-                               src/random_generators.hpp 
-                               src/experiment_helpers.cpp 
-                               src/experiment_helpers.hpp 
-                               src/time_measurement.cpp 
-                               src/time_measurement.hpp )
-target_link_libraries( random_generators opengv)
+add_library(random_generators src/random_generators.cpp
+        src/random_generators.hpp
+        src/experiment_helpers.cpp
+        src/experiment_helpers.hpp
+        src/time_measurement.cpp
+        src/time_measurement.hpp)
+target_link_libraries(random_generators opengv)
 
-add_executable( test_triangulation src/test_triangulation.cpp )
-target_link_libraries( test_triangulation opengv random_generators )
+add_executable(test_triangulation src/test_triangulation.cpp)
+target_link_libraries(test_triangulation opengv random_generators)
   
