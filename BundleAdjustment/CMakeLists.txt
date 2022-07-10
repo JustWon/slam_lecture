@@ -11,11 +11,11 @@ Find_Package(Ceres REQUIRED)
 Find_Package(Sophus REQUIRED)
 Find_Package(CSparse REQUIRED)
 
-include_directories(${PROJECT_SOURCE_DIR} 
-                    ${EIGEN3_INCLUDE_DIR} 
-                    ${CSPARSE_INCLUDE_DIR}
-                    include
-)
+include_directories(${PROJECT_SOURCE_DIR}
+        ${EIGEN3_INCLUDE_DIR}
+        ${CSPARSE_INCLUDE_DIR}
+        include
+        )
 
 add_library(bal_common src/common.cpp)
 add_executable(bundle_adjustment_ceres src/bundle_adjustment_ceres.cpp)
