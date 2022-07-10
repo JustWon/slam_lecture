@@ -1,4 +1,4 @@
 #!/bin/bash
-./gaussNewton
-./g2oCurveFitting
-./ceresCurveFitting
+./gauss_newton
+./g2o_curve_fitting
+./ceres_curve_fitting
