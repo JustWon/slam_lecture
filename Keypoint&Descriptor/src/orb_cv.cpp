@@ -1,8 +1,8 @@
+#include <chrono>
 #include <iostream>
 #include <opencv2/core/core.hpp>
 #include <opencv2/features2d/features2d.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#include <chrono>
 
 using namespace std;
 using namespace cv;
@@ -20,7 +20,8 @@ int main(int argc, char **argv) {
   Mat descriptors_1, descriptors_2;
   Ptr<FeatureDetector> detector = ORB::create();
   Ptr<DescriptorExtractor> descriptor = ORB::create();
-  Ptr<DescriptorMatcher> matcher = DescriptorMatcher::create("BruteForce-Hamming");
+  Ptr<DescriptorMatcher> matcher =
+      DescriptorMatcher::create("BruteForce-Hamming");
 
   chrono::steady_clock::time_point t1 = chrono::steady_clock::now();
   detector->detect(img_1, keypoints_1);
@@ -29,11 +30,13 @@ int main(int argc, char **argv) {
   descriptor->compute(img_1, keypoints_1, descriptors_1);
   descriptor->compute(img_2, keypoints_2, descriptors_2);
   chrono::steady_clock::time_point t2 = chrono::steady_clock::now();
-  chrono::duration<double> time_used = chrono::duration_cast<chrono::duration<double>>(t2 - t1);
+  chrono::duration<double> time_used =
+      chrono::duration_cast<chrono::duration<double>>(t2 - t1);
   cout << "extract ORB cost = " << time_used.count() << " seconds. " << endl;
 
   Mat outimg1;
-  drawKeypoints(img_1, keypoints_1, outimg1, Scalar::all(-1), DrawMatchesFlags::DEFAULT);
+  drawKeypoints(img_1, keypoints_1, outimg1, Scalar::all(-1),
+                DrawMatchesFlags::DEFAULT);
   imshow("ORB features", outimg1);
 
   vector<DMatch> matches;
@@ -44,7 +47,9 @@ int main(int argc, char **argv) {
   cout << "match ORB cost = " << time_used.count() << " seconds. " << endl;
 
   auto min_max = minmax_element(matches.begin(), matches.end(),
-                                [](const DMatch &m1, const DMatch &m2) { return m1.distance < m2.distance; });
+                                [](const DMatch &m1, const DMatch &m2) {
+                                  return m1.distance < m2.distance;
+                                });
   double min_dist = min_max.first->distance;
   double max_dist = min_max.second->distance;
 
@@ -61,7 +66,8 @@ int main(int argc, char **argv) {
   Mat img_match;
   Mat img_goodmatch;
   drawMatches(img_1, keypoints_1, img_2, keypoints_2, matches, img_match);
-  drawMatches(img_1, keypoints_1, img_2, keypoints_2, good_matches, img_goodmatch);
+  drawMatches(img_1, keypoints_1, img_2, keypoints_2, good_matches,
+              img_goodmatch);
   imshow("all matches", img_match);
   imshow("good matches", img_goodmatch);
   waitKey(0);
