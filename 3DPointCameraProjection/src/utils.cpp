@@ -5,25 +5,14 @@
 
 #include "utils.hpp"
 
-
-/* TEMPLATES */
-
-
-
-
 template<typename T> void write_pod(std::ofstream& out, T& t)
 {
 	out.write(reinterpret_cast<char*>(&t), sizeof(T));
 }
-
-
 template<typename T> void read_pod(std::ifstream& in, T& t)
 {
 	in.read(reinterpret_cast<char*>(&t), sizeof(T));
 }
-
-
-
 template<typename T> void read_pod_vector(std::ifstream& in, std::vector<T>& vect)
 {
 	long size;
@@ -36,9 +25,6 @@ template<typename T> void read_pod_vector(std::ifstream& in, std::vector<T>& vec
 		vect.push_back(t);
 	}
 }
-
-
-
 template<typename T> void write_pod_vector(std::ofstream& out, std::vector<T>& vect)
 {
 	long size = vect.size();
@@ -48,18 +34,12 @@ template<typename T> void write_pod_vector(std::ofstream& out, std::vector<T>& v
 		write_pod<T>(out, *it);
 	}
 }
-
-
-
 void writeLidarPts(std::vector<LidarPoint> &input, const char* fileName)
 {
 	std::ofstream out(fileName);
 	write_pod_vector(out, input);
 	out.close();
 }
-
-
-
 void readLidarPts(const char* fileName, std::vector<LidarPoint> &output)
 {
 	std::ifstream in(fileName);

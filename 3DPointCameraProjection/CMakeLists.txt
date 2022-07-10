@@ -15,5 +15,5 @@ add_definitions(${OpenCV_DEFINITIONS})
 
 # Executables for exercises
 
-add_executable (lidar_camera src/lidar_camera.cpp src/utils.cpp)
-target_link_libraries (lidar_camera ${OpenCV_LIBRARIES})
+add_executable (3d_point_camera_projection src/main.cpp src/utils.cpp)
+target_link_libraries (3d_point_camera_projection ${OpenCV_LIBRARIES})
