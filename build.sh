@@ -25,6 +25,9 @@ build_function
 cd "$ROOT_DIR/BundleAdjustment"
 build_function
 
+cd "$ROOT_DIR/Fundamental&EssentialMatrix"
+build_function
+
 cd "$ROOT_DIR/GraphOptimization"
 build_function
 
