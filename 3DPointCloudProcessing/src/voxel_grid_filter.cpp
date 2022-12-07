@@ -15,11 +15,10 @@ int main(int argc, char **argv) {
             << pcl::getFieldsList(*cloud) << ")" << std::endl;
 
   // 오브젝트 생성
-  // pcl::VoxelGrid<pcl::PCLPointCloud2> sor;
-  pcl::VoxelGrid<pcl::PointXYZ> sor;
-  sor.setInputCloud(cloud);             // 입력
-  sor.setLeafSize(0.01f, 0.01f, 0.01f); // leaf size  1cm
-  sor.filter(*cloud_filtered);          // 출력
+  pcl::VoxelGrid<pcl::PointXYZ> vg;
+  vg.setInputCloud(cloud);             // 입력
+  vg.setLeafSize(0.01f, 0.01f, 0.01f); // leaf size  1cm
+  vg.filter(*cloud_filtered);          // 출력
 
   // 생성된 포인트클라우드 수 출력
   std::cout << "Output : " << cloud_filtered->points.size() << " ("
